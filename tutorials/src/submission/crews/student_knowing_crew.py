@@ -4,13 +4,13 @@ from crewai import Agent, Crew, Process, Task
 from langchain_core.tools import tool
 from crewai.project import agent, crew, task
 from src.static.submission import Submission
-from sqlalchemy import text, Engine
+from sqlalchemy import text
 from langchain_aws import ChatBedrock
 
 
-DB_ENDPOINT = "unesco-reader.crqaeg62obh7.us-east-1.rds.amazonaws.com"
-DB_PASSWORD = "gdsc!!24--*part"
-DB_USER = "gdsc_participant"
+DB_ENDPOINT = ""
+DB_PASSWORD = ""
+DB_USER = ""
 DB_PORT = 5432
 DB_NAME = "postgres"
 
