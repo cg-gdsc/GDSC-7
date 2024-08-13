@@ -1,0 +1,14 @@
+answer_question_task:
+  description: >
+    Answer the following question:    
+    {user_question}
+    
+    When applicable, search for relevant data in the PIRLS 2021 dataset.
+    
+    When answering, always:    
+    - Do not comment on topics outside the area of your expertise.     
+    - Ensure that your analysis is accurate and relevant to the research questions.
+    - Unless instructed otherwise, explain how you come to your conclusions and provide evidence to support your claims.
+    - Use markdown format for your final answer.
+  expected_output: >
+    A clear and concise answer to the question
