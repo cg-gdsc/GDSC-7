@@ -8,7 +8,7 @@ But before we jump in make sure you join the [GDSC Teams channel](https://teams.
 Here is a quick overview of what we'll cover:
 
   - [1. Signing up and logging to the website](#1-signing-up-and-logging-to-the-website)
-  - [2. Creating and joining a team](#2-team-management)
+  - [2. Creating and joining a team](#2-creating-and-joining-a-team)
   - [3. Setting up your AWS accounts](#3-setting-up-your-aws-accounts)
   - [4. How to use AWS](#4-how-to-use-aws)
     - [4.1. Accessing GenAI Models with AWS Bedrock](#41-accessing-genai-models)
@@ -22,26 +22,30 @@ Here is a quick overview of what we'll cover:
 
 ## 1. Signing up and logging to the website:
 
+The very first thing you need to do to participate in the GDSC is to sign up! Here's how:
+
 1. Navigate to the GDSC Portal's Sign-up page - [https://gdsc.ce.capgemini.com/app/signup/](https://gdsc.ce.capgemini.com/app/signup/). Make sure to enter your Capgemini email. The full name is not mandatory to sign up, but it is necessary to receive a certificate of completion after the challenge. ![Signup](../images/t1_signup.png)
 2. Once you Sign-up, you will receive an e-mail like the one shown below from gdsc.ce@capgemini.com.  ![Welcome email](../images/t1_welcomeemail.png)
-3. Please click on the Verfication link provided in the e-mail. You will receive an error such as this. But do not worry, you can now login to the website.
-
+3. Please click on the Verification link provided in the e-mail. You will receive an error such as this. But do not worry, you can now login to the website.
    <img src="../images/t1_invalid_link.png" width="400"/>
 4. To login to the website, navigate to the login page - [https://gdsc.ce.capgemini.com/app/login/](https://gdsc.ce.capgemini.com/app/login/) and enter your credentials. ![Login](../images/t1_login.png)
-5. Once you login you will have access to the Resources - [https://gdsc.ce.capgemini.com/app/portal/resources/](https://gdsc.ce.capgemini.com/app/portal/resources/). The page has link to all the information and Tutorials that you will be needing for the challenge. You can also access the Usecase page to learn more about the challenge. Feel free to explore the website for information about the current challenge and the past editions.
+5. Once you login you will have access to the Resources - [https://gdsc.ce.capgemini.com/app/portal/resources/](https://gdsc.ce.capgemini.com/app/portal/resources/). The page has link to all the information and tutorials that you will be needing for the challenge. You can also access the Usecase page to learn more about the challenge. Feel free to explore the website for information about the current challenge and the past editions.
 
-## 2. Team management
+## 2. Creating and joining a team
 
-All team management actions are done in the My Team page - [https://gdsc.ce.capgemini.com/app/portal/](https://gdsc.ce.capgemini.com/app/portal/).
-
-1. Every participant needs to be in a team to participate in a challenge. These are your three options:
+The next step is to form or join a team. Every participant needs to be in a team to participate in a challenge. You have three options:
    * Create a team only for yourself
    * Create a team, find other people to join, share their team id with them. They will request to join and you can accept
    * Request to join an existing team
-2. If you want to do the challenge as a group, you can find other people in the GDSC Teams channel 'Looking for Team'. There can be up to 4 people in a team.
-3. Example of creating a new team
 
-   ![Team Creation Button](../images/t1_create_team.png)
+We highly recommend that you form a team with other participants. This will help you to share ideas, learn from each other and have a better chance of winning the challenge.
+If you don't have a team, you can find other people in the GDSC Teams channel ['Looking for Team'](https://teams.microsoft.com/l/channel/19%3Aa32e03d38fc940ee9d4b20a7cc9e030d%40thread.skype/Looking%20for%20Team?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61). It's best to work with people in a similar timezone and with a similar motivation. If you really want to win make sure your teammates have the same goal. If you're hear to learn and have fun, make sure your teammates are on the same page. Note that there can be up to 4 people in a team.
+ 
+To actually create a new team you need to
+
+1. Go to the 'My Team 'page - [https://gdsc.ce.capgemini.com/app/portal/](https://gdsc.ce.capgemini.com/app/portal/). 
+2. Enter your team name (keeping in mind that there is a prize for the 'best' name) and press the 'Create Team' button. ![Team Creation Button](../images/t1_create_team.png)
+
 4. Once a team is created, you are assgned a Team ID, which you can share with potential team members and ask them to join your team. You are also assigned an AWS account, in this example *AneTestAccount0008*
 
    ![Team Created](../images/t1_team_created.png)
