@@ -1,24 +1,28 @@
 # Tutorial 1: Set up your account for GDSC 2024
 
-Welcome to the first tutorial! First of all, join the [GDSC Teams channel](https://teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/) for all updates and communications. This tutorial expains the initial steps to create an account, sign in, team management actions and AWS access.
+Welcome to the first tutorial of the 2024 GDSC: The Grade-AI Generation! The tutorials will teach you all the necessary steps to participate in (and hopefully win) the challenge. 
+This first tutorial covers the (boring) groundwork that we need to cover before we can jump into the AI parts. It explains how to create an account, sign in, create and join a team and how to access AWS.
 
-- [Tutorial 1: Set up your account for GDSC 2024](#tutorial-1-set-up-your-account-for-gdsc-2024)
-  - [1. Signing Up and logging to the website:](#1-signing-up-and-logging-to-the-website)
-  - [2. Team management](#2-team-management)
+But before we jump in make sure you join the [GDSC Teams channel](https://teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/) for all updates from the organisation team and meeting and connecting with other participants. 
+
+Here is a quick overview of what we'll cover:
+
+  - [1. Signing up and logging to the website](#1-signing-up-and-logging-to-the-website)
+  - [2. Creating and joining a team](#2-team-management)
   - [3. Setting up your AWS accounts](#3-setting-up-your-aws-accounts)
-  - [4. Exploring AWS resources](#4-exploring-aws-resources)
-    - [4.1. Bedrock](#41-bedrock)
-    - [4.2. CodeCommit](#42-codecommit)
-    - [4.3. Sagemaker](#43-sagemaker)
-    - [4.4. Costs](#44-costs)
-  - [5. Coding environment options](#5-coding-environment-options)
-    - [5.1. Locally](#51-locally)
-    - [5.2. In AWS](#52-in-aws)
+  - [4. How to use AWS](#4-how-to-use-aws)
+    - [4.1. Accessing GenAI Models with AWS Bedrock](#41-accessing-genai-models)
+    - [4.2. Managing source code with AWS CodeCommit](#42-managing-source-code)
+    - [4.3. Developing AI solutions with Sagemaker](#43-developing-ai-solutions)
+    - [4.4. Keeping track of the costs](#44-costs-management)
+  - [5. Where to develop your solution](#5-coding-environment-options)
+    - [5.1. On your laptop](#51-locally)
+    - [5.2. With AWS Sagemaker](#52-in-aws)
   - [6. Conclusion](#6-conclusion)
 
-## 1. Signing Up and logging to the website:
+## 1. Signing up and logging to the website:
 
-1. Navigate to the GDSC Portal's Sign-up page - [https://gdsc.ce.capgemini.com/app/signup/](https://gdsc.ce.capgemini.com/app/signup/). Make sure to enter your Capgemini email. The full name is not mandatory to sign up but it is necessary to receive a certificate of completion after the challenge. ![Signup](../images/t1_signup.png)
+1. Navigate to the GDSC Portal's Sign-up page - [https://gdsc.ce.capgemini.com/app/signup/](https://gdsc.ce.capgemini.com/app/signup/). Make sure to enter your Capgemini email. The full name is not mandatory to sign up, but it is necessary to receive a certificate of completion after the challenge. ![Signup](../images/t1_signup.png)
 2. Once you Sign-up, you will receive an e-mail like the one shown below from gdsc.ce@capgemini.com.  ![Welcome email](../images/t1_welcomeemail.png)
 3. Please click on the Verfication link provided in the e-mail. You will receive an error such as this. But do not worry, you can now login to the website.
 
