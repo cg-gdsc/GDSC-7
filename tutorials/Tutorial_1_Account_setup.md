@@ -83,9 +83,13 @@ This is the main page in the AWS console, showing the most used resources and an
 
 ### 4.1. Bedrock
 
-For an overview of the LLM models, access the Bedrock service. By opening the panel on the left, you can access the Base models for an overview of the models, and use the Text Playground to interact with models. In the GDSC only some models are allowed, those will be shared at the beginning of the challenge
+For an overview of the LLM models, access the Bedrock service. By opening the panel on the left, you can access the Base models for an overview of the models, and use the Text Playground to interact with models.
 
 ![Bedrock overview](../images/t1_bedrock_overview.png)
+
+In the GDSC only some models are allowed, those will be shared at the beginning of the challenge. You can request models on the Model access page on the Bedrock configuration on the left panel, click on Modify model access button on the top and select which models you wish to have access to. After submitting your request, your models will be available after a couple of minutes.
+
+![Model requests](../images/t1_bedrock_model_access.png)
 
 ### 4.2. CodeCommit
 
