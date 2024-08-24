@@ -3,7 +3,7 @@
 Welcome to the first tutorial of the 2024 GDSC: The Grade-AI Generation! The tutorials will teach you all the necessary steps to participate in (and hopefully win) the challenge. 
 This first tutorial covers the (boring) groundwork that we need to cover before we can jump into the AI parts. It explains how to create an account, sign in, create and join a team and how to access AWS.
 
-But before we jump in make sure you join the [GDSC Teams channel](https://teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/) for all updates from the organisation team and meeting and connecting with other participants. 
+But before we jump in make sure you join the [GDSC Teams channel](https://teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/) for all updates from the organisation team and meeting and connecting with other participants. This is also the place to ask questions if you are stuck.
 
 Here is a quick overview of what we'll cover:
 
@@ -15,10 +15,11 @@ Here is a quick overview of what we'll cover:
     - [4.2. Managing source code with AWS CodeCommit](#42-managing-source-code-with-aws-codecommit)
     - [4.3. Developing AI solutions with Sagemaker](#43-developing-ai-solutions-with-sagemaker)
     - [4.4. Keeping track of the costs](#44-keeping-track-of-the-costs)
-  - [5. Where to develop your solution](#5-coding-environment-options)
-    - [5.1. With AWS Sagemaker](#51-with-aws-sagemaker)
-    - [5.2. On your laptop](#52-on-your-laptop)    
+  - [5. Running the tutorials](#5-running-the-tutorials)  
   - [6. Conclusion](#6-conclusion)
+  - [7. (Optional) Where to develop your solution](#7-optional-where-to-develop-your-solution)
+    - [7.1. With AWS Sagemaker](#71-with-aws-sagemaker)
+    - [7.2. On your laptop](#72-on-your-laptop) 
 
 ## 1. Signing up and logging to the website:
 
@@ -151,30 +152,48 @@ The `Cost explorer` tab on the left, is the best way to get down to the details.
 
 On the right side, you can filter by time range, granularity and dimension. You can see the costs for the different services you are using. You can also see the forecasted costs for the month. Keep in mind that it takes around 1 day for the costs to be updated.
 
-## 5. Where to develop your solution
+## 5. Running the tutorials
+
+All that's left now it to do one final check that everything is working. We'll do this by opening the second tutorials.
+Go back to Sagemaker, open your notebook and start JuypterLab as describer in section [4.3](#43-developing-ai-solutions-with-sagemaker).
+
+In the left sidebar, you will see the `tutorials` folder. The first tutorial is this file. Open the second tutorial by clicking on `Tutorial_2_Data_Understanding.ipynb`. Your screen should look like this:
+
+![Running the tutorials](../images/t1_aws_tutorial.png)
+
+In the `Select Kernel` box click on *Select*. Scroll down to the first Python cell in the `Set up the environment` section.
+Click in the cell and press `Shift + Enter` to run the cell. You should see the output of the cell below the cell.
+
+![Running a cell](../images/t1_aws_tutorial2.png)
+
+And that's it! You are now ready to start the second tutorial.
+
+## 6. Conclusion
+
+In this tutorial you have learnt how to sign up for the challenge and form your team. You have been assigned an AWS account, where you have explored the code, coding environment, LLM models and costs.
+
+Remember that you can always ask for help in the [GDSC Teams channel](https://teams.microsoft.com/l/team/19%3a4017a2e9af4942e7aa157d6ec9d751b4%40thread.skype/conversations?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/) and that there is a community voted **special prize** for the team that helps other the most!
+
+You are now ready for tutorial 2, where you will learn about the dataset for the challenge.
+
+
+## 7 (Optional) Where to develop your solution
 
 We already touched on this previously, but let's go into more detail.
 You can develop your solution in two ways: either locally on your own laptop or with AWS using AWS Sagemaker.
 
-### 5.1. With AWS Sagemaker
+### 7.1. With AWS Sagemaker
 
 To use AWS Sagemaker you will need to follow these steps:
 
 - Start your notebook instance when you are ready to develop in Sagemaker as described in the [previous section]((#43-developing-ai-solutions-with-sagemaker))
 - Use CodeCommit to manage your source code and submit solutions. We'll show how in [Tutorial 4](https://github.com/cg-gdsc/GDSC-7/blob/main/tutorials/Tutorial_4_Submitting_Your_Solution.ipynb)
 - Remember to stop your instance when you are not using it to save costs. If not, it will be automatically be stopped if it's not in use for one hour
-
-### 5.2. On your laptop
+- 
+### 7.2. On your laptop
 
 To work on your laptop you'll need to:
 
 - Set up your development tools: code editor, terminal, git, aws cli library
 - Export your AWS credentials as explained in the [section 3.5]((#3-setting-up-your-aws-accounts)) so you are authenticated to AWS
 - Pull the code from the account's CodeCommit to your computer and push it when you are ready to test or submit
-
-
-## 6. Conclusion
-
-In this tutorial you have learnt how to sign up for the challenge and form your team. You have been assigned an AWS account, where you have explored the code, coding environment, LLM models and costs.
-
-You are now ready for tutorial 2, where you will learn about the dataset for the challenge.
