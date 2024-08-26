@@ -17,7 +17,7 @@ Here is a quick overview of what we'll cover:
     - [4.4. Keeping track of the costs](#44-keeping-track-of-the-costs)
   - [5. Running the tutorials](#5-running-the-tutorials)  
   - [6. Conclusion](#6-conclusion)
-  - [7. (Optional) Where to develop your solution](#7-optional-where-to-develop-your-solution)
+  - [7. Appendix -  Where to develop your solution](#7-appendix---where-to-develop-your-solution)
     - [7.1. With AWS Sagemaker](#71-with-aws-sagemaker)
     - [7.2. On your laptop](#72-on-your-laptop) 
 
@@ -177,7 +177,7 @@ Remember that you can always ask for help in the [GDSC Teams channel](https://te
 You are now ready for tutorial 2, where you will learn about the dataset for the challenge.
 
 
-## 7 (Optional) Where to develop your solution
+## 7 Appendix -  Where to develop your solution
 
 We already touched on this previously, but let's go into more detail.
 You can develop your solution in two ways: either locally on your own laptop or with AWS using AWS Sagemaker.
@@ -189,7 +189,7 @@ To use AWS Sagemaker you will need to follow these steps:
 - Start your notebook instance when you are ready to develop in Sagemaker as described in the [previous section]((#43-developing-ai-solutions-with-sagemaker))
 - Use CodeCommit to manage your source code and submit solutions. We'll show how in [Tutorial 4](https://github.com/cg-gdsc/GDSC-7/blob/main/tutorials/Tutorial_4_Submitting_Your_Solution.ipynb)
 - Remember to stop your instance when you are not using it to save costs. If not, it will be automatically be stopped if it's not in use for one hour
-- 
+
 ### 7.2. On your laptop
 
 To work on your laptop you'll need to:
