@@ -40,7 +40,7 @@ The next step is to form or join a team. Every participant needs to be in a team
    * Request to join an existing team
 
 We highly recommend that you form a team with other participants. This will help you to share ideas, learn from each other and have a better chance of winning the challenge.
-If you don't have a team, you can find other people in the GDSC Teams channel ['Looking for Team'](https://teams.microsoft.com/l/channel/19%3Aa32e03d38fc940ee9d4b20a7cc9e030d%40thread.skype/Looking%20for%20Team?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61). It's best to work with people in a similar timezone and with a similar motivation. If you really want to win make sure your teammates have the same goal. If you're hear to learn and have fun, make sure your teammates are on the same page. Note that there can be up to 4 people in a team.
+If you don't have a team, you can find other people in the GDSC Teams channel ['Looking for Team'](https://teams.microsoft.com/l/channel/19%3Aa32e03d38fc940ee9d4b20a7cc9e030d%40thread.skype/Looking%20for%20Team?groupId=7d77d672-dff1-4c9f-ac55-3c837c1bebf9&tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61). It's best to work with people in a similar timezone and with a similar motivation. If you really want to win make sure your teammates have the same goal. If you're here to learn and have fun, make sure your teammates are on the same page. Note that there can be up to 4 people in a team.
  
 To actually create a new team you need to
 
@@ -51,7 +51,7 @@ To actually create a new team you need to
 3. Once a team is created, you are assigned a Team ID, which you can share with potential team members and ask them to join your team. You are also assigned an AWS account, in this example *AneTestAccount0008*
 
    ![Team Created](../images/t1_team_created.png)
-4. (Optional) To join a team, simply copy them team ID and paste it in the 'Join Team' section. ![Team Join](../images/t1_join_request.png) If you no longer wish to join a team, you can cancel your request. ![Team Join Request](../images/t1_join_request2.png)
+4. (Optional) To join a team, simply copy the team ID and paste it in the 'Join Team' section. ![Team Join](../images/t1_join_request.png) If you no longer wish to join a team, you can cancel your request. ![Team Join Request](../images/t1_join_request2.png)
    
 5. (Optional) The team lead can approve or decline requests from new members
    ![Team Approvals](../images/t1_approve.png)
@@ -105,8 +105,6 @@ But before we start, here are some general tips for using AWS:
 Large Language Models (LLM) are the core of the GDSC. We'll access them via AWS Bedrock. Search for Bedrock in the search bar and click on the service. Click on the button on the top left to open the panel. Your screen should look like this:
 
 ![Bedrock overview](../images/t1_bedrock_overview.png)
-
-#TODO: Change depeding on model access.
 
 `Base models` lists all models that are available on AWS. For the GDSC, we gave you access to Claude 3 Haiku and Claude 3.5 Sonnet. You may use other models but will have to organize access and payment to them yourself.
 The `Playgrounds` are perfect for testing out the different models. The `Chat` interface allows you to chat with the model, similar that the openAI chatGPT website. 
