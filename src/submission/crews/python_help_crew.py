@@ -9,7 +9,7 @@ class PythonHelpCrew(Submission):
         self.llm = llm
     
     def run(self, prompt: str) -> str:
-        return self.crew().kickoff(inputs={"prompt": prompt})
+        return self.crew().kickoff(inputs={"prompt": prompt}).raw
 
     @agent
     def python_developer(self) -> Agent:

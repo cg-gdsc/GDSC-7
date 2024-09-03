@@ -17,7 +17,7 @@ class DataAnalysisCrew(Submission):
         self.llm = llm
 
     def run(self, prompt: str) -> str:
-        return self.crew().kickoff(inputs={'user_question': prompt})
+        return self.crew().kickoff(inputs={'user_question': prompt}).raw
 
     @agent
     def lead_data_analyst(self) -> Agent:
