@@ -18,7 +18,7 @@ __connection_string = f'postgresql://{DB_USER}:{DB_PASSWORD}@{DB_ENDPOINT}:{DB_P
 ENGINE = sqlalchemy.create_engine(__connection_string)
 
 
-class StudentKnowingCrew(Submission):
+class BasicPIRLSCrew(Submission):
     
     def __init__(self, llm: ChatBedrock):
         self.llm = llm
