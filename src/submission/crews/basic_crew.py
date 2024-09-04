@@ -59,9 +59,7 @@ class DataAnalysisCrew(Submission):
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
-            verbose=2,
+            verbose=True,
             max_iter=5,
             cache=True
         )
-
-

@@ -17,12 +17,6 @@ def query_database(query: str) -> str:
     Raises:
         Exception: If the query is invalid or encounters an exception during execution.
     """
-    # lower_query = query.lower()
-    # record_limiters = ['count', 'where', 'limit', 'distinct', 'having', 'group by']
-    # if not any(word in lower_query for word in record_limiters):
-    #     return 'WARNING! The query you are about to perform has no record limitations! In case of large tables and ' \
-    #            'joins this will return an incomprehensible output.'
-
     with ENGINE.connect() as connection:
         try:
             res = connection.execute(text(query))

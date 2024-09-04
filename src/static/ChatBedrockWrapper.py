@@ -1,17 +1,14 @@
 import logging
 from collections import defaultdict
-from typing import Dict, Any, Optional, List, Tuple, Iterator, AsyncIterator
+from typing import Dict, Any, Optional, List, Tuple, Iterator, AsyncIterator, Union
 
 from langchain_aws import ChatBedrock
 from langchain_core.callbacks import CallbackManagerForLLMRun, AsyncCallbackManagerForLLMRun
-from langchain_core.language_models import LanguageModelInput
-from langchain_core.messages import BaseMessage
+from langchain_core.messages import ToolCall, AIMessageChunk
 from langchain_core.outputs import GenerationChunk
 from langchain_core.pydantic_v1 import Field
 
 # Configure logging
-from langchain_core.runnables import RunnableConfig
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 TOKEN_COUNTER: dict[str, dict[str, dict[str, int]]] = defaultdict(lambda: {})
@@ -50,22 +47,6 @@ class ChatBedrockWrapper(ChatBedrock):
     model_name: str = Field(exclude=False, default='AWS_Bedrock')
     model_id: str = Field(exclude=False)
 
-    def invoke(
-            self,
-            input: LanguageModelInput,
-            config: Optional[RunnableConfig] = None,
-            *,
-            stop: Optional[List[str]] = None,
-            **kwargs: Any,
-    ) -> BaseMessage:
-        messages = map(lambda m: m.content, self._convert_input(input).to_messages())
-        messages = [{'content': message} for message in messages]
-        self._update_token_counter_prompt(None, None, messages)
-        ret = super().invoke(input, config, stop=stop, **kwargs)
-        content = ret.content if isinstance(ret.content, str) else ''
-        self._update_token_counter_completion(content)
-        return ret
-
     def _prepare_input_and_invoke(
             self,
             prompt: Optional[str] = None,
@@ -74,11 +55,17 @@ class ChatBedrockWrapper(ChatBedrock):
             stop: Optional[List[str]] = None,
             run_manager: Optional[CallbackManagerForLLMRun] = None,
             **kwargs: Any,
-    ) -> Tuple[str, Dict[str, Any]]:
+    ) -> Tuple[str, List[ToolCall], Dict[str, Any]]:
         self._update_token_counter_prompt(prompt, system, messages)
-        text, metadata = super()._prepare_input_and_invoke(prompt, system, messages, stop, run_manager, **kwargs)
+        text, tool_calls, metadata = super()._prepare_input_and_invoke(prompt, system, messages, stop, run_manager, **kwargs)
         self._update_token_counter_completion(text)
-        return text, metadata
+        return text, tool_calls, metadata
+
+    def __process_chunk_content(self, chunk: Union[GenerationChunk, AIMessageChunk]):
+        if isinstance(chunk, GenerationChunk):
+            self._update_token_counter_completion(chunk.text)
+        elif isinstance(chunk, AIMessageChunk):
+            self._update_token_counter_completion(chunk.content)
 
     def _prepare_input_and_invoke_stream(
             self,
@@ -88,15 +75,13 @@ class ChatBedrockWrapper(ChatBedrock):
             stop: Optional[List[str]] = None,
             run_manager: Optional[CallbackManagerForLLMRun] = None,
             **kwargs: Any,
-    ) -> Iterator[GenerationChunk]:
+    ) -> Iterator[Union[GenerationChunk, AIMessageChunk]]:
         self._update_token_counter_prompt(prompt, system, messages)
         stream = super()._prepare_input_and_invoke_stream(prompt, system, messages, stop, run_manager, **kwargs)
-
-        def inner() -> Iterator[GenerationChunk]:
+        def inner() -> Iterator[Union[GenerationChunk, AIMessageChunk]]:
             for chunk in stream:
-                self._update_token_counter_completion(chunk.text)
+                self.__process_chunk_content(chunk)
                 yield chunk
-
         return inner()
 
     async def _aprepare_input_and_invoke_stream(
@@ -166,3 +151,30 @@ def get_token_cost(tokens: int, model_id: str, mode: str) -> float:
         mode = 'output'
     return tokens / 1000 * cost_mapping[model_id][mode]
 
+
+def compute_llm_call_cost(model_id: str, call_id: str) -> float:
+    logging.info(f"Starting cost computation for model: {model_id}, call ID: {call_id}")
+
+    # Mapping of model names to their respective costs per 1,000 tokens (input and output)
+    cost_mapping = {
+        'anthropic.claude-3-5-sonnet-20240620-v1:0': {'input': 0.003, 'output': 0.015},
+        'anthropic.claude-3-haiku-20240307-v1:0': {'input': 0.00025, 'output': 0.00125},
+        'amazon.titan-text-premier-v1:0': {'input': 0.0005, 'output': 0.0015}
+    }
+
+    token_counts = TOKEN_COUNTER[str(call_id)][model_id]
+    prompt_tokens = token_counts['prompt_tokens']
+    completion_tokens = token_counts['completion_tokens']
+
+    logging.info(f"Token counts - Prompt: {prompt_tokens}, Completion: {completion_tokens}")
+
+    input_cost = (prompt_tokens / 1000) * cost_mapping[model_id]['input']
+    output_cost = (completion_tokens / 1000) * cost_mapping[model_id]['output']
+
+    logging.info(f"Input cost: ${input_cost}, Output cost: ${output_cost}")
+
+    total_cost = input_cost + output_cost
+
+    logging.info(f"Total cost for call ID {call_id}: ${total_cost}")
+
+    return total_cost

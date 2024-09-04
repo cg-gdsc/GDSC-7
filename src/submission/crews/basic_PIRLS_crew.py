@@ -4,7 +4,7 @@ from textwrap import dedent
 
 from src.static.submission import Submission
 from src.static.ChatBedrockWrapper import ChatBedrockWrapper
-from src.tools.query_database import query_database
+from src.submission.tools.database import query_database
 
 
 class BasicPIRLSCrew(Submission):
