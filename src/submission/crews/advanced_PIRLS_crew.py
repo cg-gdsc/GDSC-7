@@ -7,7 +7,7 @@ import src.submission.tools.database as db_tools
 
 
 @CrewBase
-class DataAnalysisCrew(Submission):
+class AdvancedPIRLSCrew(Submission):
     """Data Analysis Crew for the GDSC project."""
     # Load the files from the config directory
     agents_config = PROJECT_ROOT / 'submission' / 'config' / 'agents.yaml'
