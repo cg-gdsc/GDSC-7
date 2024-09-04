@@ -5,7 +5,7 @@ import random
 from src.static.submission import Submission
 
 
-class SceletonCrew(Submission):
+class SkeletonCrew(Submission):
     def run(self, prompt: str) -> str:
         return self.crew.kickoff(inputs={'user_question': prompt}).raw
 
