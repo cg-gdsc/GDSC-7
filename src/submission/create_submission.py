@@ -19,6 +19,6 @@ def create_submission(call_id: str) -> Submission:
         call_id=call_id
     )
     
-    crew = AdvancedPIRLSCrew(llm)
+    crew = BasicPIRLSCrew(llm)
     return crew
 
