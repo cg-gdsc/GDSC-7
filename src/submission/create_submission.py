@@ -1,11 +1,7 @@
 import dotenv
 
-import sqlalchemy
-
-# from src.submission.crews.basic_crew import DataAnalysisCrew
-# from src.submission.crews.python_help_crew import PythonHelpCrew
-# from src.submission.crews.sceleton_crew import SceletonCrew
 from src.submission.crews.basic_PIRLS_crew import BasicPIRLSCrew
+from src.submission.crews.advanced_PIRLS_crew import AdvancedPIRLSCrew
 from src.static.ChatBedrockWrapper import ChatBedrockWrapper
 from src.static.submission import Submission
 
@@ -23,6 +19,6 @@ def create_submission(call_id: str) -> Submission:
         call_id=call_id
     )
     
-    crew = BasicPIRLSCrew(llm)
+    crew = AdvancedPIRLSCrew(llm)
     return crew
 
