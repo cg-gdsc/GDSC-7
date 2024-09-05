@@ -55,7 +55,7 @@ def get_possible_answers_to_question(
         FROM {general_table} AS GTab
         JOIN {questionnaire_answers_table} AS ATab ON ATab.{entity_id} = GTab.{entity_id}
         JOIN {questionnaire_entries_table} AS ETab ON ETab.Code = ATab.Code
-        WHERE ETab.Code = '{question_code.replace("'", "").replace('"', '')}'
+        WHERE ATab.Code = '{question_code.replace("'", "").replace('"', '')}'
     """
 
     with ENGINE.connect() as connection:
