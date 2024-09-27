@@ -1,0 +1,1351 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:GMT Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0100
+TZOFFSETTO:-0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:-0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="GLOBAL, Data  AI Community";RSVP=TRUE:mailto:dataaicommunity.g
+	lobal@capgemini.com
+ATTENDEE;CN="DL CORP Data and AI Community";RSVP=TRUE:mailto:dataandaicommu
+	nity@capgemini.com
+ATTENDEE;CN="DL CORP Global Insights and Data Community";RSVP=TRUE:mailto:g
+	lobalinsightsanddatacommunity@capgemini.com
+ATTENDEE;CN="DL COR AI Community";RSVP=TRUE:mailto:aicommunity.cor@capgemin
+	i.com
+ATTENDEE;CN="Jivraj, Sumayyah";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sumayy
+	ah.ladak@capgemini.com
+ATTENDEE;CN="Gupta, Jyoti";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jyoti.f.gu
+	pta@capgemini.com
+ATTENDEE;CN="Renducherla, Jagadeesh Naidu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:m
+	ailto:jagadeesh-naidu.renducherla@capgemini.com
+ATTENDEE;CN="Janicka, Katarzyna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kata
+	rzyna.janicka@capgemini.com
+ATTENDEE;CN="Kavi, Bayram";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bayram.kav
+	i@capgemini.com
+ATTENDEE;CN="MAITRE, Alexandre";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:alexa
+	ndre.maitre@capgemini.com
+ATTENDEE;CN="Martin, Derek";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:derek.mar
+	tin@capgemini.com
+ATTENDEE;CN="Vincent, Sacha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sacha.vi
+	ncent@capgemini.com
+ATTENDEE;CN="Gandhi, Kavish";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kavish.g
+	andhi@capgemini.com
+ATTENDEE;CN="Atre, Amit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:amit.a.atre@
+	capgemini.com
+ATTENDEE;CN="Pothireddygari, Lakshmi Priya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:lakshmi-priya.pothireddygari@capgemini.com
+ATTENDEE;CN="R, Pooja Kumari";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pooja.k
+	umari-r@capgemini.com
+ATTENDEE;CN="Menon, Aditya Binod";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:adi
+	tya-binod.menon@capgemini.com
+ATTENDEE;CN="Patil, Kalpesh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kalpesh.
+	b.patil@capgemini.com
+ATTENDEE;CN="Das, Puspita";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:puspita.da
+	s@capgemini.com
+ATTENDEE;CN="Meshram, Dhiraj";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dhiraj.
+	meshram@capgemini.com
+ATTENDEE;CN="Kanthadai, Srinand";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:srin
+	and.kanthadai@capgemini.com
+ATTENDEE;CN="Chopra, Samar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:samar.cho
+	pra@capgemini.com
+ATTENDEE;CN="Rajvanshi, Ayush";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ayush.
+	rajvanshi@capgemini.com
+ATTENDEE;CN="Pawan, Abhinaw";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:abhinaw.
+	pawan@capgemini.com
+ATTENDEE;CN="Dey, Namrata";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:namrata.de
+	y@capgemini.com
+ATTENDEE;CN="Thokchom, Ajitkumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:aji
+	tkumar.thokchom@capgemini.com
+ATTENDEE;CN="Meda, Siva Rama Krishna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:siva-rama-krishna.meda@capgemini.com
+ATTENDEE;CN="Leveque, Isabelle";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:isabe
+	lle.leveque@capgemini.com
+ATTENDEE;CN="Sudhish, Soumya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:soumya.
+	sudhish@capgemini.com
+ATTENDEE;CN="Bhagati, Triveni";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:triven
+	i.bhagati@capgemini.com
+ATTENDEE;CN="Gudur, Bhagwan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bhagwan.
+	gudur@capgemini.com
+ATTENDEE;CN="Biskupski, Bartosz";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bart
+	osz.biskupski@capgemini.com
+ATTENDEE;CN="Silas, Jash";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jash.silas@
+	capgemini.com
+ATTENDEE;CN="Stoliarova, Alina";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:alina
+	.stoliarova@capgemini.com
+ATTENDEE;CN="Durante, Flavio";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:flavio.
+	durante@capgemini.com
+ATTENDEE;CN="Barbera, Mariacristina";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	mariacristina.barbera@capgemini.com
+ATTENDEE;CN="Kumar, Nishi Kant";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nishi
+	-kant.kumar@capgemini.com
+ATTENDEE;CN="Scammell, John";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:john.sca
+	mmell@capgemini.com
+ATTENDEE;CN="Kondaiahgari, Revathi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:r
+	evathi.kondaiahgari@capgemini.com
+ATTENDEE;CN="Agarwal, Bhavya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bhavya.
+	agarwal@capgemini.com
+ATTENDEE;CN="Shinde, Ashish Avinash";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	ashish-avinash.shinde@capgemini.com
+ATTENDEE;CN="CHANDALURI, Kiran";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kiran
+	.chandaluri@capgemini.com
+ATTENDEE;CN="Tesoniero, Andrea";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:andre
+	a.tesoniero@capgemini.com
+ATTENDEE;CN="Munye, Aisha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:aisha.muny
+	e@capgemini.com
+ATTENDEE;CN="Llanes Jurado, Jose";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jos
+	e.llanes-jurado@capgemini.com
+ATTENDEE;CN="Kanumuri, Sujatha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sujat
+	ha.kanumuri@capgemini.com
+ATTENDEE;CN="Rajput, Ankit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ankit.raj
+	put@capgemini.com
+ATTENDEE;CN="DUBILLON, SEBASTIEN";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:seb
+	astien.dubillon@capgemini.com
+ATTENDEE;CN="Nagamally, Vishwa Prasad";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:vishwa-prasad.nagamally@capgemini.com
+ATTENDEE;CN="Prabhakar Raibagkar, Rachita";ROLE=OPT-PARTICIPANT;RSVP=TRUE:m
+	ailto:rachita.prabhakar-raibagkar@capgemini.com
+ATTENDEE;CN="Szmit, Anna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:anna.szmit@
+	capgemini.com
+ATTENDEE;CN="There, Ashish";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ashish-su
+	reshrao.there@capgemini.com
+ATTENDEE;CN="Boora, Sarnjit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sarnjit.
+	boora@capgemini.com
+ATTENDEE;CN="Fanelli, Gioele";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:gioele.
+	fanelli@capgemini.com
+ATTENDEE;CN="Machireddy, Lakshmipriya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:lakshmipriya.machireddy@capgemini.com
+ATTENDEE;CN="ROUZAUD, Gautier";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:gautie
+	r.rouzaud@capgemini.com
+ATTENDEE;CN="N B, Pavan Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pavan-
+	kumar.n-b@capgemini.com
+ATTENDEE;CN="Putha, Maheswara";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mahesw
+	ara.putha@capgemini.com
+ATTENDEE;CN="ZHAO, Yulong";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yulong.zha
+	o@capgemini.com
+ATTENDEE;CN="BLANDIN, Claire";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:claire.
+	blandin@capgemini.com
+ATTENDEE;CN="Bala Guraiah, Daram";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dar
+	am.bala-guraiah@capgemini.com
+ATTENDEE;CN="Sun, Shanghua";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shanghua.
+	sun@capgemini.com
+ATTENDEE;CN="More, Bhagyashree";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bhagy
+	ashree-baban.more@capgemini.com
+ATTENDEE;CN="Tobiasz, Marzena";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:marzen
+	a.tobiasz@capgemini.com
+ATTENDEE;CN="Sarghini, Naufal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:naufal
+	.sarghini@capgemini.com
+ATTENDEE;CN="von Lepel, Michael";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mich
+	ael.von.lepel@capgemini.com
+ATTENDEE;CN="Chauhan, Durgesh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:durges
+	h.a.chauhan@capgemini.com
+ATTENDEE;CN="Gerber, Claude";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:claude.g
+	erber@capgemini.com
+ATTENDEE;CN="Maheswari, Boddani";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bodd
+	ani.maheswari@capgemini.com
+ATTENDEE;CN="Bhalani, Mital";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mital.bh
+	alani@capgemini.com
+ATTENDEE;CN="Ghosh, Swastik";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:swastik.
+	ghosh@capgemini.com
+ATTENDEE;CN="Santhosh, Guntha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:guntha
+	.santhosh@capgemini.com
+ATTENDEE;CN="Sunil Sarangdhar, Sumedh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:sumedh.sunil-sarangdhar@capgemini.com
+ATTENDEE;CN="Pławski, Piotr";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:piotr.p
+	lawski@capgemini.com
+ATTENDEE;CN="Parihar, Niraj";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:niraj.pa
+	rihar@capgemini.com
+ATTENDEE;CN="Riyanto, Tony";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:tony.riya
+	nto@capgemini.com
+ATTENDEE;CN="FERNANDES, BRIAN JOSEPH";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:brian-joseph.fernandes@capgemini.com
+ATTENDEE;CN="Khayyum Sami, Mohammed Abdul";ROLE=OPT-PARTICIPANT;RSVP=TRUE:m
+	ailto:mohammad-abdul.khayyum-sami@capgemini.com
+ATTENDEE;CN="Zucca, Marcella";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:marcell
+	a.zucca@capgemini.com
+ATTENDEE;CN="G, Sathya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sathya.a.g@ca
+	pgemini.com
+ATTENDEE;CN="Bigelli, Stefano";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:stefan
+	o.bigelli@capgemini.com
+ATTENDEE;CN="Kumar, Harsh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:harsh.e.ku
+	mar@capgemini.com
+ATTENDEE;CN="Maradapu, Nava";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nava.mar
+	adapu@capgemini.com
+ATTENDEE;CN="Vobbilisetty, Vamsi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vam
+	si.vobbilsetty@capgemini.com
+ATTENDEE;CN="Subramaniyan, Mukund";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mu
+	kund.subramaniyan@capgemini.com
+ATTENDEE;CN="Gailania, Pradeep";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:prade
+	epsingh.gailania@capgemini.com
+ATTENDEE;CN="Price, Terry";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:terry.pric
+	e@capgemini.com
+ATTENDEE;CN="Bilal, Rabiya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rabiya.bi
+	lal@capgemini.com
+ATTENDEE;CN="Kumar, Bondla";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bondla.ku
+	mar@capgemini.com
+ATTENDEE;CN="Deshmukh, Chandra Shekhar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:chandra.deshmukh@capgemini.com
+ATTENDEE;CN="Diz Senra, Francisco";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:fr
+	ancisco.diz-senra@capgemini.com
+ATTENDEE;CN="Jonnalagadda, Suresh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:su
+	resh.jonnalagadda@capgemini.com
+ATTENDEE;CN="LAHBABI, Mohamed";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mohame
+	d.lahbabi@capgemini.com
+ATTENDEE;CN="Tse, Emily";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:emily.tse@ca
+	pgemini.com
+ATTENDEE;CN="Vinay Shankar, BADANALA";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:badanala.vinay-shankar@capgemini.com
+ATTENDEE;CN="Gangaiah, Suresh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:suresh
+	.gangaiah@capgemini.com
+ATTENDEE;CN="Webert, Jan Hendrik";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jan
+	-hendrik.webert@capgemini.com
+ATTENDEE;CN="Bandaru, Ramanjaneyulu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	ramanjaneyulu.bandaru@capgemini.com
+ATTENDEE;CN="Amstein, Timm";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:timm.amst
+	ein@capgemini.com
+ATTENDEE;CN="S, Venkateshwaran";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:venka
+	teshwaran.a.s@capgemini.com
+ATTENDEE;CN="Gailledreau, Mathilde";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:m
+	athilde.gailledreau@capgemini.com
+ATTENDEE;CN="Marchesiello, Rita Flavia";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:rita.marchesiello@capgemini.com
+ATTENDEE;CN="Rajopadhye, Aditya Balkrishna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:aditya-balkrishna.rajopadhye@capgemini.com
+ATTENDEE;CN="Ruiz Navarro, Julio Alberto";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:julio-alberto.ruiz-navarro@capgemini.com
+ATTENDEE;CN="Lane, Tom";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:tom.lane@capg
+	emini.com
+ATTENDEE;CN="Sheshachalam, Sneha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sne
+	ha.sheshachalam@capgemini.com
+ATTENDEE;CN="Singam, Munivardhan Reddy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:munivardhan-reddy.singam@capgemini.com
+ATTENDEE;CN="CHARONNAT, Stéphane";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:st
+	ephane.charonnat@capgemini.com
+ATTENDEE;CN="Poosapati, Rama Raju";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vi
+	jaya-ramaraju.p@capgemini.com
+ATTENDEE;CN="Rusetskyy, Oleksandr";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ol
+	eksandr.rusetskyy@capgemini.com
+ATTENDEE;CN="CHAVE, Myriam";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:myriam.ch
+	ave@capgemini.com
+ATTENDEE;CN="Kolekar, Sandesh Rajkumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:sandesh-rajkumar.kolekar@capgemini.com
+ATTENDEE;CN="Gaur, Vasu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vasu.gaur@ca
+	pgemini.com
+ATTENDEE;CN="Nyantah, Patricia";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:patri
+	cia.nyantah@capgemini.com
+ATTENDEE;CN="Dasgupta, Soumyajit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sou
+	myajit.dasgupta@capgemini.com
+ATTENDEE;CN="Muthu, Shivashunmugam";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:s
+	hivashunmugam.muthu@capgemini.com
+ATTENDEE;CN="Carracedo Carracedo, Rocio";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mai
+	lto:rocio.carracedo-carracedo@capgemini.com
+ATTENDEE;CN="Rogalski, Michał";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:micha
+	l.rogalski@capgemini.com
+ATTENDEE;CN="Circi, Fabrizio";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:fabrizi
+	o.circi@capgemini.com
+ATTENDEE;CN="Hesarghatta, Prakash";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pr
+	akash.lakshminarayana@capgemini.com
+ATTENDEE;CN="Shrivastava, Aditya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:adi
+	tya.c.shrivastava@capgemini.com
+ATTENDEE;CN="Alvarez Alonso, Joaquín";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:joaquin.alvarez-alonso@capgemini.com
+ATTENDEE;CN="Das, Ipsita";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ipsita.a.da
+	s@capgemini.com
+ATTENDEE;CN="Khurjekar, Sayli";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sayli.
+	khurjekar@capgemini.com
+ATTENDEE;CN="Dharmatti, Manjunath";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ma
+	njunath.dharmatti@capgemini.com
+ATTENDEE;CN="H L, Sumit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sumit-h.l@ca
+	pgemini.com
+ATTENDEE;CN="Metta, Amrutha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:amrutha.
+	metta@capgemini.com
+ATTENDEE;CN="Pocock, Scott";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:scott.poc
+	ock@capgemini.com
+ATTENDEE;CN="Campaña Otero, Maria";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:m
+	aria.campana-otero@capgemini.com
+ATTENDEE;CN="Jain, Mahendra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mahendra
+	.jain@capgemini.com
+ATTENDEE;CN="Górecki, Przemek";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:przem
+	yslaw.gorecki@capgemini.com
+ATTENDEE;CN="Sawhney, Sheetal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sheeta
+	l.sawhney@capgemini.com
+ATTENDEE;CN="Srivastav, Sudhanshu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:su
+	dhanshu.srivastav@capgemini.com
+ATTENDEE;CN="Bapat, Kiran";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kiran.bapa
+	t@capgemini.com
+ATTENDEE;CN="Petrucci, Stefano";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:stefa
+	no.petrucci@capgemini.com
+ATTENDEE;CN="Chandra Sekhar, Nadendla";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:nadendla.chandra-sekhar@capgemini.com
+ATTENDEE;CN="FLORET, Manon";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:manon.flo
+	ret@capgemini.com
+ATTENDEE;CN="Chilukoti, Rajendar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:chi
+	lukoti.rajendar-reddy@capgemini.com
+ATTENDEE;CN="Afolabi, Anthony";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:anthon
+	y.afolabi@capgemini.com
+ATTENDEE;CN="Pacha, Venkateswarlu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ve
+	nkateswarlu.pacha@capgemini.com
+ATTENDEE;CN="Tolido, Ron";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ron.tolido@
+	capgemini.com
+ATTENDEE;CN="Ajay Kumar, Voodi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:voodi
+	-ajay.kumar@capgemini.com
+ATTENDEE;CN="NICOLENO, JOSE' MARIA";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:j
+	ose.nicoleno@capgemini.com
+ATTENDEE;CN="Srikanth Devundla, Venkata";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mai
+	lto:venkata.srikanth-devundla@capgemini.com
+ATTENDEE;CN="MUJTABI, RUKHSAR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rukhsa
+	r.mujtabi@capgemini.com
+ATTENDEE;CN="Cantillo Herrera, Sandra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:sandra.cantillo-herrera@capgemini.com
+ATTENDEE;CN="Ramanathan, Venkatesh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:v
+	enkatesh.ramanathan@capgemini.com
+ATTENDEE;CN="Yip, Man Kit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:man-kit.yi
+	p@capgemini.com
+ATTENDEE;CN="Kumar, Arvind";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:arvind.h.
+	kumar@capgemini.com
+ATTENDEE;CN="Sreedevi, kothapalli";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sr
+	eedevi.kothapalli@capgemini.com
+ATTENDEE;CN="BAUDOT, ARIELLE";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:arielle
+	.baudot@capgemini.com
+ATTENDEE;CN="Rodriguez Flores, Martin Emilio";ROLE=OPT-PARTICIPANT;RSVP=TRU
+	E:mailto:martin-emilio.rodriguez-flores@capgemini.com
+ATTENDEE;CN="Pippalla, Venkata Suresh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:venkata-suresh.pippalla@capgemini.com
+ATTENDEE;CN="Namasivayam, Manivasagan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:manivasagan.namasivayam@capgemini.com
+ATTENDEE;CN="Sylvester, Paul";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:paul.sy
+	lvester@capgemini.com
+ATTENDEE;CN="Goyal, Sid";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:siddhartha.g
+	oyal@capgemini.com
+ATTENDEE;CN="Aggarwal, Akshat";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:akshat
+	.aggarwal@capgemini.com
+ATTENDEE;CN="Pallaki, Ram";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ram.pallak
+	i@capgemini.com
+ATTENDEE;CN="Szychowska, Anna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:anna.s
+	zychowska@capgemini.com
+ATTENDEE;CN="ZAHOURI, Manal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:manal.za
+	houri@capgemini.com
+ATTENDEE;CN="FENYO, Jérôme";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jerome.
+	fenyo@capgemini.com
+ATTENDEE;CN="Orves, Jim";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jim.orves@ca
+	pgemini.com
+ATTENDEE;CN="., Abhimanyu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:abhimanyu.
+	b.abhimanyu@capgemini.com
+ATTENDEE;CN="SriVidya, Pottipochala";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	pottipochala.srividya@capgemini.com
+ATTENDEE;CN="Baldassarre, Luca";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:luca.
+	baldassarre@capgemini.com
+ATTENDEE;CN="Rust, Dom";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dom.rust@capg
+	emini.com
+ATTENDEE;CN="Perez-Rodenas Lechuga, Luis";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:luis.perez-rodenas-lechuga@capgemini.com
+ATTENDEE;CN="Praja Reddy, Yempeti";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ye
+	mpeti.praja-reddy@capgemini.com
+ATTENDEE;CN="Llorens Gali, Gabriel";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:g
+	abriel.llorens-gali@capgemini.com
+ATTENDEE;CN="HL, Karthik";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:karthik.hl@
+	capgemini.com
+ATTENDEE;CN="Pamisetti, Joseph";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:josep
+	h.pamisetti@capgemini.com
+ATTENDEE;CN="PATAT, Gwenaelle";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:gwenae
+	lle.patat@capgemini.com
+ATTENDEE;CN="E, Allahbaksh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:allahbaks
+	h.e@capgemini.com
+ATTENDEE;CN="Bansal, Lakshay";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lakshay
+	.bansal@capgemini.com
+ATTENDEE;CN="Mullangi, Vidya Sagar Reddi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:sagar.mullangi@capgemini.com
+ATTENDEE;CN="Shahad, Molla";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:molla.sha
+	had@capgemini.com
+ATTENDEE;CN="Rajurkar, Shreyas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shrey
+	as.rajurkar@capgemini.com
+ATTENDEE;CN="Gundlich, Frank";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:frank.g
+	undlich@capgemini.com
+ATTENDEE;CN="Nalavade, Rashmi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rashmi
+	.nalavade@capgemini.com
+ATTENDEE;CN="Palissery, Manoj";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:manoj.
+	palissery@capgemini.com
+ATTENDEE;CN="MORATO, Emma";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:emma.morat
+	o@capgemini.com
+ATTENDEE;CN="O'Herlihy, Kristin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kris
+	tin.o-herlihy@uk.sogeti.com
+ATTENDEE;CN="Urbani, Paola";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:paola.urb
+	ani@capgemini.com
+ATTENDEE;CN="Abdul Aleem, Waqqas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:waq
+	qas.abdul-aleem@capgemini.com
+ATTENDEE;CN="AGRAWAL, NIDHI";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nidhi.c.
+	agrawal@capgemini.com
+ATTENDEE;CN="Birn, Lukas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lukas.birn@
+	capgemini.com
+ATTENDEE;CN="Gandham, Rama";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rama.gand
+	ham@capgemini.com
+ATTENDEE;CN="Subramanian, Varadarajan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:varadharajan.subramanian@capgemini.com
+ATTENDEE;CN="BIHOREAU, Chloé";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:chloe.
+	bihoreau@capgemini.com
+ATTENDEE;CN="Notari, Eleonora";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:eleono
+	ra.notari@capgemini.com
+ATTENDEE;CN="Nashipudi, Shambu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shamb
+	u.nashipudi@capgemini.com
+ATTENDEE;CN="Demokri, Shabnam";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shabna
+	m.demokri@capgemini.com
+ATTENDEE;CN="Moreno Campos, Jose Gabriel";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:jose-gabriel.moreno-campos@capgemini.com
+ATTENDEE;CN="Karesjoki, Päivi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:paivi
+	.karesjoki@capgemini.com
+ATTENDEE;CN="Sharma, Kishan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kishan.a
+	.sharma@capgemini.com
+ATTENDEE;CN="Li, Weidong";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:weidong.li@
+	capgemini.com
+ATTENDEE;CN="Kjellquist, Louise";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:loui
+	se.kjellquist@capgemini.com
+ATTENDEE;CN="Gireesh, Vaddamanu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vadd
+	amanu.gireesh@capgemini.com
+ATTENDEE;CN="Jagtap, Yuvraj";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yuvraj.j
+	agtap@capgemini.com
+ATTENDEE;CN="Mishra, Vishal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vishal.m
+	ishra@capgemini.com
+ATTENDEE;CN="Yaranagu, Parthasaradi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	parthasaradhi.y@capgemini.com
+ATTENDEE;CN="K K, Saranya";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:saranya.k-
+	k@capgemini.com
+ATTENDEE;CN="Richards, Nakisha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nakis
+	ha.richards@capgemini.com
+ATTENDEE;CN="Le Thu, Huong";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:h.le-thu@
+	unesco.org
+ATTENDEE;CN="Jeong, Euiryeong";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:e.jeon
+	g@unesco.org
+ATTENDEE;CN="Ferede, Martha K.";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mk.fe
+	rede@unesco.org
+ATTENDEE;CN="Genevois, Ilona";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:i.genev
+	ois@unesco.org
+ATTENDEE;CN="Östberg, Susanna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:susan
+	na.ostberg@capgemini.com
+ATTENDEE;CN="Kühlwein, Daniel";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:danie
+	l.kuehlwein@capgemini.com
+ATTENDEE;CN="Starace, Simone";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:simone.
+	starace@capgemini.com
+ATTENDEE;CN="NAVEEN KUMAR, RAVURI VENKATA";ROLE=OPT-PARTICIPANT;RSVP=TRUE:m
+	ailto:ravuri-venkata.naveen-kumar@capgemini.com
+ATTENDEE;CN="Pattanayak, Satish Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:satish-kumar.pattanayak@capgemini.com
+ATTENDEE;CN="Uppala, Manikanta Sai";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:m
+	anikanta-sai.uppala@capgemini.com
+ATTENDEE;CN="Jasu, Deeksha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:deeksha.j
+	asu@capgemini.com
+ATTENDEE;CN="Das, Abhi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:abhi.das@capg
+	emini.com
+ATTENDEE;CN="Roa Cuesta, Bruno";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bruno
+	.roa-cuesta@capgemini.com
+ATTENDEE;CN="Ingber, Jeffrey F";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jeffr
+	ey.ingber@capgemini.com
+ATTENDEE;CN="More, Amit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:amit.a.more@
+	capgemini.com
+ATTENDEE;CN="Chagam, Maheswara Reddy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:maheswara-reddy.chagam@capgemini.com
+ATTENDEE;CN="JAIN, MANISH";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:manish.h.j
+	ain@capgemini.com
+ATTENDEE;CN="Hogan, Sandra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sandra.ho
+	gan@capgemini.com
+ATTENDEE;CN="Rengarajan, Jothe";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jothe
+	.rengarajan@capgemini.com
+ATTENDEE;CN="GREVERIE, Franck";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:franck
+	.greverie@capgemini.com
+ATTENDEE;CN="RIO, Mikael";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mikael.rio@
+	capgemini.com
+ATTENDEE;CN="Maiti, Aniket";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:aniket.ma
+	iti@capgemini.com
+ATTENDEE;CN="Kolhapure, Pramod";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pramo
+	d.kolhapure@capgemini.com
+ATTENDEE;CN="CASSIAN, Stéphane";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:step
+	hane.cassian@capgemini.com
+ATTENDEE;CN="Machhindra Khilare, Arun";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:arun.machhindra-khilare@capgemini.com
+ATTENDEE;CN="AHDA, Nassima";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nassima.a
+	hda@capgemini.com
+ATTENDEE;CN="Pandey, Samridh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:samridh
+	.pandey@capgemini.com
+ATTENDEE;CN="Kumar, Anup";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:anup.f.kuma
+	r@capgemini.com
+ATTENDEE;CN="Maciejowski, Arkadiusz";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	arkadiusz.maciejowski@capgemini.com
+ATTENDEE;CN="Pulli, Eeva";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:eeva.pulli@
+	capgemini.com
+ATTENDEE;CN="T, Nagaraj";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nagaraj.t@ca
+	pgemini.com
+ATTENDEE;CN="Kasireddy, Vijay Kumar Reddy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:m
+	ailto:kasireddy.vijaykumarreddy@capgemini.com
+ATTENDEE;CN="Barbanti, Francesco";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:fra
+	ncesco.barbanti@capgemini.com
+ATTENDEE;CN="Frattina, Diego";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:diego.f
+	rattina@capgemini.com
+ATTENDEE;CN="Patel, Nisha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nisha.a.pa
+	tel@capgemini.com
+ATTENDEE;CN="Bomshetty, Sudhir Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:sudhir-kumar.bomshetty@capgemini.com
+ATTENDEE;CN="Schot, Sam van der";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sam.
+	vander.schot@capgemini.com
+ATTENDEE;CN="KULKARNI, SAURABH";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:saura
+	bh-shashikant.kulkarni@capgemini.com
+ATTENDEE;CN="Panigrahy, Amit Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:a
+	mit-kumar.panigrahy@capgemini.com
+ATTENDEE;CN="RHOULAM, GHIZLANE";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ghizl
+	ane.rhoulam@capgemini.com
+ATTENDEE;CN="Bhapkar, Rahul";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rahul.ba
+	lasaheb-bhapkar@capgemini.com
+ATTENDEE;CN="Nath, Sudeshna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sudeshna
+	.nath@capgemini.com
+ATTENDEE;CN="Kapoor, Kamal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kamal.a.k
+	apoor@capgemini.com
+ATTENDEE;CN="Bethina, Veerendra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:veer
+	endra.bethina@capgemini.com
+ATTENDEE;CN="Brandwood, Ben";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ben.bran
+	dwood@capgemini.com
+ATTENDEE;CN="Vaddi, Pradeep Kumar Reddy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mai
+	lto:pradeep-kumar-reddy.vaddi@capgemini.com
+ATTENDEE;CN="Basu, Surabhi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:surabhi.b
+	asu@capgemini.com
+ATTENDEE;CN="Pallapolu, Sai Charan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:s
+	ai-charan.pallapolu@capgemini.com
+ATTENDEE;CN="Gonzalez Mata, Edwin Giovanni";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:edwin-giovanni.gonzalez-mata@capgemini.com
+ATTENDEE;CN="Raichur, Saurabh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:saurab
+	h-suhas.raichur@capgemini.com
+ATTENDEE;CN="Rachal, Jennifer E";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jenn
+	ifer.rachal@capgemini.com
+ATTENDEE;CN="Sironi, Mauro";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mauro.sir
+	oni@capgemini.com
+ATTENDEE;CN="Wallace, Ian";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ian.wallac
+	e@capgemini.com
+ATTENDEE;CN="VENKATESAN, VIJAY";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vijay
+	.a.venkatesan@capgemini.com
+ATTENDEE;CN="Singh, Pooja";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pooja.i.si
+	ngh@capgemini.com
+ATTENDEE;CN="Sierra, Byron";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:byron.sie
+	rra@capgemini.com
+ATTENDEE;CN="Pachpande, Trupti";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:trupt
+	i.pachpande@capgemini.com
+ATTENDEE;CN="Banwo, Kunle";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kunle.banw
+	o@capgemini.com
+ATTENDEE;CN="kumar, Amit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:amit.av.kum
+	ar@capgemini.com
+ATTENDEE;CN="Joshi, Aniruddha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:anirud
+	dha.joshi@capgemini.com
+ATTENDEE;CN="VAN DER WAL, Esther";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:est
+	her.van-der-wal@capgemini.com
+ATTENDEE;CN="IJpelaar, Niels";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:niels.i
+	jpelaar@capgemini.com
+ATTENDEE;CN="Bangera, Sharat";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sharat.
+	bangera@capgemini.com
+ATTENDEE;CN="GRIMA, Thierry";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:thierry.
+	grima@capgemini.com
+ATTENDEE;CN="Saraf, Manas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:manas.sara
+	f@capgemini.com
+ATTENDEE;CN="Desai, Kiran";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kiran.desa
+	i@capgemini.com
+ATTENDEE;CN="Sochaj, Bartosz";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bartosz
+	.sochaj@capgemini.com
+ATTENDEE;CN="Saha, Krishanu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:krishanu
+	.saha@capgemini.com
+ATTENDEE;CN="Gudivada, Ranjit Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	ranjit-kumar.gudivada@capgemini.com
+ATTENDEE;CN="Reddy, Praneetha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pranee
+	tha.a.reddy@capgemini.com
+ATTENDEE;CN="Pirowicz, Justyna Anna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	justyna.pirowicz@capgemini.com
+ATTENDEE;CN="PRECIADO, JOSE ABRAHAM";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	jose-abraham.preciado-rodriguez@capgemini.com
+ATTENDEE;CN="Bell, Lewis";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lewis.x.bel
+	l@capgemini.com
+ATTENDEE;CN="Kluskens, Michael";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:micha
+	el.kluskens@capgemini.com
+ATTENDEE;CN="Prabhu R, Ashwin Vinayak";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:ashwin-vinayak.prabhu-r@capgemini.com
+ATTENDEE;CN="Hołubowicz, Justyna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ju
+	styna.holubowicz@capgemini.com
+ATTENDEE;CN="Khachane, Shreyas V";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shr
+	eyas-v.khachane@capgemini.com
+ATTENDEE;CN="Hahn, Dierk";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dierk.hahn@
+	capgemini.com
+ATTENDEE;CN="Ahmed A, Shabir";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shabir.
+	ahmed-a@capgemini.com
+ATTENDEE;CN="Kulshrestha, Nikhil";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nik
+	hil.kulshrestha@capgemini.com
+ATTENDEE;CN="DEHOUCHE, Nabila";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nabila
+	.dehouche@capgemini.com
+ATTENDEE;CN="Pan, Lin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lin.pan@capgem
+	ini.com
+ATTENDEE;CN="ATTAR, Nathanael";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nathan
+	ael.attar@capgemini.com
+ATTENDEE;CN="Arora, Aman";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:aman.a.aror
+	a@capgemini.com
+ATTENDEE;CN="Sundh, Johanna";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:johanna.
+	sundh@capgemini.com
+ATTENDEE;CN="Storey, Richard";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:richard
+	.storey@capgemini.com
+ATTENDEE;CN="Maheshwari, Praveen";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pra
+	veen.maheshwari@capgemini.com
+ATTENDEE;CN="Sanchez Morales, Adrian";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:adrian.sanchez-morales@capgemini.com
+ATTENDEE;CN="Korgul, Monika";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:monika.k
+	orgul@capgemini.com
+ATTENDEE;CN="Nana, Martha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:martha.nan
+	a@capgemini.com
+ATTENDEE;CN="Alderman, Andrew";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Andrew
+	.Alderman@capgemini.com
+ATTENDEE;CN="Vorwerk, Erwin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:erwin.vo
+	rwerk@capgemini.com
+ATTENDEE;CN="BNL, Insights and Data";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	insightsanddata.bnl@capgemini.com
+ATTENDEE;CN="IBRAHIM, Omotayo Taiye";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	omotayo-taiye.ibrahim@capgemini.com
+ATTENDEE;CN="K, Ramalakshmi Reddy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ra
+	malakshmi.k@capgemini.com
+ATTENDEE;CN="DESHAMUKLA, RAJYA LAXMI";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:rajya-laxmi.deshamukla@capgemini.com
+ATTENDEE;CN="R, Yeshaswini";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yeshaswin
+	i.r@capgemini.com
+ATTENDEE;CN="Das, Rima";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rima-moni.das
+	@capgemini.com
+ATTENDEE;CN="Nagpal, Khushi";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:khushi.n
+	agpal@capgemini.com
+ATTENDEE;CN="Nambiar, Benoy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:benoy.na
+	mbiar@capgemini.com
+ATTENDEE;CN="Gergely, Robert Tibor";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:r
+	obert.gergely@capgemini.com
+ATTENDEE;CN="BORDJAH, Dahia";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dahia.bo
+	rdjah@capgemini.com
+ATTENDEE;CN="Kumar, Vijay";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vijay.b.ku
+	mar@capgemini.com
+ATTENDEE;CN="Natarajan, Geetharani";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:g
+	eetharani.natarajan@capgemini.com
+ATTENDEE;CN="Picchirallo, Jacopo";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jac
+	opo.picchirallo@capgemini.com
+ATTENDEE;CN="Goswami, Sameer";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sameer.
+	goswami@capgemini.com
+ATTENDEE;CN="Buondi, Andrea";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:andrea.b
+	uondi@capgemini.com
+ATTENDEE;CN="Sharma, Raveena";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:raveena
+	.sharma@capgemini.com
+ATTENDEE;CN="Singh, Chandra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:chandra.
+	a.singh@capgemini.com
+ATTENDEE;CN="Sanchez Muinelo, Paloma";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:paloma.sanchez-muinelo@capgemini.com
+ATTENDEE;CN="Clivio, Caroline";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:caroli
+	ne.clivio@capgemini.com
+ATTENDEE;CN="Shrivastava, Sushant";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:su
+	shant.shrivastava@capgemini.com
+ATTENDEE;CN="Bamford, Jordan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jordan.
+	bamford@capgemini.com
+ATTENDEE;CN="Bansal, Sachin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sachin.a
+	.bansal@capgemini.com
+ATTENDEE;CN="Lakshmidevi, Kuntumalla";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:kuntumalla.lakshmidevi@capgemini.com
+ATTENDEE;CN="Rajput, Rasika";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rasika.r
+	ajput@capgemini.com
+ATTENDEE;CN="Khan, Saif";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:saif.khan@ca
+	pgemini.com
+ATTENDEE;CN="Mason, Sophie";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sophia.ma
+	son@capgemini.com
+ATTENDEE;CN="Cutolo, Angelo";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:angelo.c
+	utolo@capgemini.com
+ATTENDEE;CN="R, Loknath";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:loknath.r@ca
+	pgemini.com
+ATTENDEE;CN="Ali, Mujtaba";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mujtaba.al
+	i@capgemini.com
+ATTENDEE;CN="Katta, Vinay Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vina
+	y-kumar.katta@capgemini.com
+ATTENDEE;CN="Smith, Lee";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lee.c.smith@
+	capgemini.com
+ATTENDEE;CN="Rosas Garcia, Jose Maria";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:jose-maria.rosas-garcia@capgemini.com
+ATTENDEE;CN="Bhalla, Vishal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vishal.b
+	halla@capgemini.com
+ATTENDEE;CN="Wahiwala, Hardev";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:hardev
+	.wahiwala@capgemini.com
+ATTENDEE;CN="S, Padma";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:padma.s@capgem
+	ini.com
+ATTENDEE;CN="Walkinshaw, Janet";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:janet
+	.walkinshaw@capgemini.com
+ATTENDEE;CN="Novelli, Valerio";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:valeri
+	o.novelli@capgemini.com
+ATTENDEE;CN="Sharma, Isha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:isha.m.sha
+	rma@capgemini.com
+ATTENDEE;CN="Hughes-Browne, Zak";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:zak.
+	hughes-browne@capgemini.com
+ATTENDEE;CN="Goberu, Kiran Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kir
+	an-kumar.goberu@capgemini.com
+ATTENDEE;CN="Corallo, Maurizio";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mauri
+	zio.corallo@capgemini.com
+ATTENDEE;CN="Santoro, Luca";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:luca.sant
+	oro@capgemini.com
+ATTENDEE;CN="Dave, Dhaval";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dhaval.dav
+	e@capgemini.com
+ATTENDEE;CN="DL BR Insights and Data";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:insightsanddata.br@capgemini.com
+ATTENDEE;CN="Marques, Renata Goncalves Mota";ROLE=OPT-PARTICIPANT;RSVP=TRUE
+	:mailto:renata.marques@capgemini.com
+ATTENDEE;CN="Moresi, Caue";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:caue.mores
+	i@capgemini.com
+ATTENDEE;CN="Bocca, Dario";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:dario.bocc
+	a@capgemini.com
+ATTENDEE;CN="Silva, Sergio Henrique Carvalho da";ROLE=OPT-PARTICIPANT;RSVP=
+	TRUE:mailto:sergio.silva@capgemini.com
+ATTENDEE;CN="Nallalagappan, Sundar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:s
+	undar.nallalagappan@capgemini.com
+ATTENDEE;CN="Menezes, Diego Pablo de";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:diego.menezes@capgemini.com
+ATTENDEE;CN="Abbati, Mario";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mario.abb
+	ati@capgemini.com
+ATTENDEE;CN="Vercosa, Joao Pedro Knauer de Queiroz";ROLE=OPT-PARTICIPANT;RS
+	VP=TRUE:mailto:joao.vercosa@capgemini.com
+ATTENDEE;CN="Wijnands, Gerrit";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:gerrit
+	.wijnands@capgemini.com
+ATTENDEE;CN="Hammond, Ian";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ian.a.hamm
+	ond@capgemini.com
+ATTENDEE;CN="Divakar, Tarun";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:tarun.di
+	vakar@capgemini.com
+ATTENDEE;CN="Abrams, yacko";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yacko.abr
+	ams@capgemini.com
+ATTENDEE;CN="Liljeström, Johan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:joha
+	n.liljestrom@capgemini.com
+ATTENDEE;CN="Carosi, Rogerio";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rogerio
+	.carosi@capgemini.com
+ATTENDEE;CN="Rishitha, Sirigineedi Phani";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:sirigineedi-phani.rishitha@capgemini.com
+ATTENDEE;CN="DIABY, Awa";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:awa.diaby@ca
+	pgemini.com
+ATTENDEE;CN="Trovao, Daniel Gregini";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	daniel.trovao@capgemini.com
+ATTENDEE;CN="DOUCENE, Veronique";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vero
+	nique.doucene@capgemini.com
+ATTENDEE;CN="Sangare, Daouda";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:daouda.
+	sangare@capgemini.com
+ATTENDEE;CN="Taneja, Sumedha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sumedha
+	.taneja@capgemini.com
+ATTENDEE;CN="Farje, Luis Alberto";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lui
+	s-alberto.farje@capgemini.com
+ATTENDEE;CN="Engelhardt, Rob";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:robert.
+	engelhardt@capgemini.com
+ATTENDEE;CN="Quadros, Bruno Knorre";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:b
+	runo.quadros@capgemini.com
+ATTENDEE;CN="Green, Joe";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:joe.green@ca
+	pgemini.com
+ATTENDEE;CN="BELLARABI, Tarik";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:tarik.
+	bellarabi@capgemini.com
+ATTENDEE;CN="Srinivasan, Sivaranjani";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto
+	:sivaranjani.srinivasan@capgemini.com
+ATTENDEE;CN="Pyla, Santhosh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pyla-var
+	aha-eswara-santhosh.kumar@capgemini.com
+ATTENDEE;CN="Kulkarni, Kanchan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kanch
+	an.kulkarni@capgemini.com
+ATTENDEE;CN="Sheregar, Shaini";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:shaini
+	.sheregar@capgemini.com
+ATTENDEE;CN="Berry, Karlton";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:karlton.
+	berry@capgemini.com
+ATTENDEE;CN="Vieira, Felipe dos Santos";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:felipe.vieira@capgemini.com
+ATTENDEE;CN="Bhandaru, Ramana";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ramana
+	.bhandaru@capgemini.com
+ATTENDEE;CN="., Akash";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:akash.a.akash@
+	capgemini.com
+ATTENDEE;CN="Walczak, Michał";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:michal
+	.walczak@capgemini.com
+ATTENDEE;CN="Karel, Edgar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:edgar.kare
+	l@capgemini.com
+ATTENDEE;CN="Guo, Yingda";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yingda.guo@
+	capgemini.com
+ATTENDEE;CN="Lohar, Yogesh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yogesh.lo
+	har@capgemini.com
+ATTENDEE;CN="Krushitha, Sankeesa";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:san
+	keesa.krushitha@capgemini.com
+ATTENDEE;CN="Thapa, Vishal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vishal.th
+	apa@capgemini.com
+ATTENDEE;CN="Taneja, Pramod";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pramod.t
+	aneja@capgemini.com
+ATTENDEE;CN="Shah, Jaymeen";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jaymeen.s
+	hah@capgemini.com
+ATTENDEE;CN="Pramanik, Chinmay";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:chinm
+	ay.pramanik@capgemini.com
+ATTENDEE;CN="Andrade, Ygor Hans Kelsen Soares de";ROLE=OPT-PARTICIPANT;RSVP
+	=TRUE:mailto:ygor.andrade@capgemini.com
+ATTENDEE;CN="Naishadham, Rama Sundeep";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:rama-sundeep.naishadham@capgemini.com
+ATTENDEE;CN="Santos, Angelica dos";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:an
+	gelica.santos@capgemini.com
+ATTENDEE;CN="Kumar, Satendra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:satendr
+	a.kumar@capgemini.com
+ATTENDEE;CN="Silva, Icaro Gabriel Nascimento";ROLE=OPT-PARTICIPANT;RSVP=TRU
+	E:mailto:icaro.silva@capgemini.com
+ATTENDEE;CN="Vadakkepat, Sree";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sreeku
+	mar.vadakkepat@capgemini.com
+ATTENDEE;CN="Santhapuri Venkata, Radhakrishna";ROLE=OPT-PARTICIPANT;RSVP=TR
+	UE:mailto:radhakrishna.venkata@capgemini.com
+ATTENDEE;CN="Badman, Howard";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:howard.b
+	adman@capgemini.com
+ATTENDEE;CN="Bouallal, Iliass";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:iliass
+	.bouallal@capgemini.com
+ATTENDEE;CN="Sahane, Vishal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vishal.s
+	ahane@capgemini.com
+ATTENDEE;CN="Vaezian, Banafsheh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bana
+	.vaezian@capgemini.com
+ATTENDEE;CN="S, Abhishek";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:abhishek.e.
+	s@capgemini.com
+ATTENDEE;CN="Rameshbhai, Pandey Mayankkumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE
+	:mailto:pandey-mayankkumar.rameshbhai@capgemini.com
+ATTENDEE;CN="Wortmann, Alex";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:alex.wor
+	tmann@capgemini.com
+ATTENDEE;CN="Kotamarthi, Prathyush Kiran";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:prathyush-kiran.kotamarthi@capgemini.com
+ATTENDEE;CN="Dave, Yagnesh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:yagnesh.d
+	ave@capgemini.com
+ATTENDEE;CN="Ullyatt, Peter";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:peter.ul
+	lyatt@capgemini.com
+ATTENDEE;CN="Desai, Vishal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vishal.de
+	sai@capgemini.com
+ATTENDEE;CN="PONDE, RAM";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ram.ponde@ca
+	pgemini.com
+ATTENDEE;CN="Powell, Clare";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:clare.pow
+	ell@capgemini.com
+ATTENDEE;CN="Oliveira, Leonardo Moret de";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:leonardo.d.oliveira@capgemini.com
+ATTENDEE;CN="Pinto, Christian de Souza Pereira";ROLE=OPT-PARTICIPANT;RSVP=T
+	RUE:mailto:christian.pinto@capgemini.com
+ATTENDEE;CN="Pontual, Guilherme Eli Silveira";ROLE=OPT-PARTICIPANT;RSVP=TRU
+	E:mailto:guilherme.pontual@capgemini.com
+ATTENDEE;CN="Kannan, Swami";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:swami.kan
+	nan@capgemini.com
+ATTENDEE;CN="Maddipatla, Girish Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:girish-kumar.maddipatla@capgemini.com
+ATTENDEE;CN="Andrzejewski, Marcin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ma
+	rcin.a.andrzejewski@capgemini.com
+ATTENDEE;CN="GUIBERT, Sebastien";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:seba
+	stien.guibert@capgemini.com
+ATTENDEE;CN="Nifco, Eitan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:eitan.nifc
+	o@capgemini.com
+ATTENDEE;CN="Hu, Junting";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:junting.hu@
+	capgemini.com
+ATTENDEE;CN="Nair, Balu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:balu.nair@ca
+	pgemini.com
+ATTENDEE;CN="Kroese, Rik";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rik.kroese@
+	capgemini.com
+ATTENDEE;CN="Mendez Rios, Josean";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jos
+	ean.mendez@capgemini.com
+ATTENDEE;CN="Kelley, Steve";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:steve.kel
+	ley@capgemini.com
+ATTENDEE;CN="Engels, Robert";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:robert.e
+	ngels@capgemini.com
+ATTENDEE;CN="Pathak, Ayush";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ayush.a.p
+	athak@capgemini.com
+ATTENDEE;CN="PATTNAYAK, ANKIT KUMAR";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	ankit-kumar.pattnayak@capgemini.com
+ATTENDEE;CN="V L, Pankaja";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:pankaja.v-
+	l@capgemini.com
+ATTENDEE;CN="Gomez Rodriguez, Lucas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	lucas.gomez-rodriguez@capgemini.com
+ATTENDEE;CN="Nataraj, Rajaram";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rajara
+	m.nataraj@capgemini.com
+ATTENDEE;CN="J, Rubis Kannan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:rubis.k
+	annan-j@capgemini.com
+ATTENDEE;CN="Sit, Mainak";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mainak.sit@
+	capgemini.com
+ATTENDEE;CN="Gaspar, Annie Nobrega";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:a
+	nnie.gaspar@capgemini.com
+ATTENDEE;CN="TUEKAM SANDJON, Marlene Rogere";ROLE=OPT-PARTICIPANT;RSVP=TRUE
+	:mailto:marlene-rogere.tuekam-sandjon@capgemini.com
+ATTENDEE;CN="Aslani, Hesaam";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:hesaam.a
+	slani@capgemini.com
+ATTENDEE;CN="Malaty, Marina";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:marina.m
+	alaty@capgemini.com
+ATTENDEE;CN="Vempati, Naveen Kumar";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:n
+	aveen.vempati@capgemini.com
+ATTENDEE;CN="Pottinger, Mark";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mark.po
+	ttinger@capgemini.com
+ATTENDEE;CN="Menefee, Lawson";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:lawrenc
+	e.menefee@capgemini.com
+ATTENDEE;CN="GUIAS, Stephane";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:stephan
+	e.guias@capgemini.com
+ATTENDEE;CN="Singh, Saiyam Preet";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sai
+	yam-preet.singh@capgemini.com
+ATTENDEE;CN="Pragada, Harsha";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:harsha.
+	pragada@capgemini.com
+ATTENDEE;CN="Venkatesan, Vijay";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vijay
+	.venkatesan@capgemini.com
+ATTENDEE;CN="Ervin, Alan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:james.ervin
+	@capgemini.com
+ATTENDEE;CN="Mavuru, Princess";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:prince
+	ss.mavuru@capgemini.com
+ATTENDEE;CN="Sarkar, Arita";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:arita.sar
+	kar@capgemini.com
+ATTENDEE;CN="Landkroon, Daan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:daan.la
+	ndkroon@capgemini.com
+ATTENDEE;CN="Intrevado, Paul";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:paul.in
+	trevado@capgemini.com
+ATTENDEE;CN="Kuijk, Andre";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:andre.kuij
+	k@capgemini.com
+ATTENDEE;CN="Choudhury, Arnab";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:arnab.
+	choudhury@capgemini.com
+ATTENDEE;CN="Kulkarni, Adavirao Vuttanur";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:adavirao.kulkarni@capgemini.com
+ATTENDEE;CN="DOUMBIA, Song Eun Alexandre";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:song-eun-alexandre.doumbia@capgemini.com
+ATTENDEE;CN="Mannan, Zahed";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:zahed.man
+	nan@capgemini.com
+ATTENDEE;CN="Sementé Tarragó, Oriol";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:oriol.semente@capgemini.com
+ATTENDEE;CN="Raghavender, Mallanagari";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailt
+	o:raghavender.raghavender@capgemini.com
+ATTENDEE;CN="VADAKATTU, JYOTHIRMAYI";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	jyothirmayi.vadakattu@capgemini.com
+ATTENDEE;CN="Lahkar, Kankana";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:kankana
+	.lahkar@capgemini.com
+ATTENDEE;CN="Akula, JEEVAN";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:jeevan.ak
+	ula@capgemini.com
+ATTENDEE;CN="MONTEIRO, Sandra";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sandra
+	.a.monteiro@capgemini.com
+ATTENDEE;CN="Kumar, Vishal";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:vishal.l.
+	kumar@capgemini.com
+ATTENDEE;CN="Engel, Sarah";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sarah.enge
+	l@capgemini.com
+ATTENDEE;CN="Ningurkar, Prapti";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:prapt
+	i.a.ningurkar@capgemini.com
+ATTENDEE;CN="PATIL, PRATIK PRADEEP";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:p
+	ratik-pradeep.patil@capgemini.com
+ATTENDEE;CN="Jacobi, Magnus";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:magnus.j
+	acobi@capgemini.com
+ATTENDEE;CN="Biagi, Federico (Avio Aero, consultant)";ROLE=OPT-PARTICIPANT;
+	RSVP=TRUE:mailto:Federico.Biagi@avioaero.it
+ATTENDEE;CN="Bhadkamkar, Nagesh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:nage
+	sh.bhadkamkar@capgemini.com
+ATTENDEE;CN="Biemans, Bas";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bas.bieman
+	s@capgemini.com
+ATTENDEE;CN="Wilson, James";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:james.l.w
+	ilson@capgemini.com
+ATTENDEE;CN="DL BNL INSIGHTS  DATA DS DATA SCIENCE";ROLE=OPT-PARTICIPANT;RS
+	VP=TRUE:mailto:insightsdatadsdatascience.bnl@capgemini.com
+ATTENDEE;CN="Mohanty, Adarsh";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:adarsh.
+	mohanty@capgemini.com
+ATTENDEE;CN="HALDAR, BISHNU";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:bishnu.h
+	aldar@capgemini.com
+ATTENDEE;CN="GUIRAN, Patrick";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:patrick
+	.guiran@capgemini.com
+ATTENDEE;CN="Jadhav, Nikhil Vishwanath";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mail
+	to:nikhil.a.jadhav@capgemini.com
+ATTENDEE;CN="Prieto Delgado, Angel Maria";ROLE=OPT-PARTICIPANT;RSVP=TRUE:ma
+	ilto:angel-maria.prieto-delgado@capgemini.com
+ATTENDEE;CN="Pereiras Magarinos, Alexandre";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:alexandre.pereiras@capgemini.com
+ATTENDEE;CN="Olsson Wärn, Martin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:ma
+	rtin.olsson@capgemini.com
+ATTENDEE;CN="Thomas, Sarah";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:sarah.tho
+	mas@capgemini.com
+ATTENDEE;CN="Cegielska-Zaremba, Agnieszka";ROLE=OPT-PARTICIPANT;RSVP=TRUE:m
+	ailto:agnieszka.cegielska-zaremba@capgemini.com
+CLASS:PUBLIC
+CREATED:20240927T093329Z
+DESCRIPTION: <https://builders.capgemini.com/upload/template_images/41AC0E8
+	0-EC96-12C7-FE9F-1D0227D049D3/user_banner/GDSC7_BUILDER750X303.png> \n\n \
+	n\n \n\nJoin the #GDSC7: The Grade-AI Generation Kick-Off Call \n\nThe 7th
+	 edition of Capgemini's Global Data Science Challenge (GDSC): The Grade-AI
+	 Generation: Re-righting Education with Data & AI is here! Sign up now and
+	 discover how you can leverage or learn data science skills to make a real
+	-world impact on education. Register for the Challenge today! <https://gds
+	c.ce.capgemini.com/app/>  \n\nThis year\, we've partnered with UNESCO and 
+	AWS to tackle the UN's Sustainable Development Goal 4: Ensure inclusive an
+	d equitable quality education and promote lifelong learning opportunities 
+	for all. Our challenge focuses on developing agentic AI systems that empow
+	er educators through powerful data tools.     \n\n <https://teams.microsof
+	t.com/l/meetup-join/19%3Ameeting_MjA1ZTI3ZmEtZTAzNi00YmY5LWI3ZTYtNmZiMTZhZ
+	WRiN2M5%40thread.v2/0?context=%7B%22Tid%22%3A%2276a2ae5a-9f00-4f6b-95ed-5d
+	33d77c4d61%22%2C%22Oid%22%3A%22f873b7d1-8138-4d2f-a7f5-cbb3d53e8c24%22%2C%
+	22IsBroadcastMeeting%22%3Atrue%2C%22role%22%3A%22a%22%7D&btype=a&role=a> \
+	n\nHere's what awaits you:\n\n <https://builders.capgemini.com/upload/user
+	_images/F4B568A3-50E6-8517-62BC-582A370249FC/right-01-01-01%2810%29.png> \
+	n\n \n\nContribute to a noble cause: Help bridge the education gap and emp
+	ower learners worldwide.\n\n \n\n \n\n \n\n <https://builders.capgemini.co
+	m/upload/user_images/F4B568A3-50E6-8517-62BC-582A370249FC/right-01-01-01%2
+	810%29.png> \n\n \n\nDevelop cutting-edge skills: Learn to build and impro
+	ve agentic AI models with expert guidance.\n\n \n\n \n\n \n\n <https://bui
+	lders.capgemini.com/upload/user_images/F4B568A3-50E6-8517-62BC-582A370249F
+	C/right-01-01-01%2810%29.png> \n\n \n\nNetwork with peers: Connect with a 
+	global community of data science enthusiasts.\n\n \n\n \n\n \n\n <https://
+	builders.capgemini.com/upload/user_images/F4B568A3-50E6-8517-62BC-582A3702
+	49FC/right-01-01-01%2810%29.png> \n\n \n\nHave fun and win big: Participat
+	e in an engaging challenge with exciting prizes!\n\nAfter the Kick off\, y
+	ou'll gain access to all AWS tutorials to get you started. Visit our page 
+	for more details: Global Data Science Challenge (capgemini.com) <https://g
+	dsc.ce.capgemini.com/app/> \n\nDon't miss out on this incredible opportuni
+	ty!\n\n#GDSC7 #TheGradeAIGeneration #EducationForAll\n\n  \n\n____________
+	____________________\n\n Contact \n\n Kristin O'Herlihy <mailto:kristin.o-
+	herlihy@uk.sogeti.com?subject=GDSC6> \n\n#GDSC7 Marketing Lead\n\n <https:
+	//builders.capgemini.com/upload/user_images/32176A6A-4B3D-D080-DEA7-D42EE4
+	FBA9DE/Line_56.png> \n\nDaniel Kühlwein <mailto:daniel.kuehlwein@capgemin
+	i.com?subject=GDSC6>  \n\n#GDSC7 Program Lead\n\n  \n\nBest regards\, \n\n
+	  <https://builders.capgemini.com/upload/user_images/AB0AB8DB-BB65-7518-39
+	AB-C74A7A8B1D00/Sanna-new.png> \n\nSusanna Östberg\n\nCMO/CCO\, I&D GBL\,
+	\n\nData & AI Portfolio\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n
+DTEND;TZID="GMT Standard Time":20241001T160000
+DTSTAMP:20240925T115102Z
+DTSTART;TZID="GMT Standard Time":20241001T150000
+LAST-MODIFIED:20240927T093329Z
+ORGANIZER;CN="GLOBAL, Data  AI Community":mailto:dataaicommunity.global@cap
+	gemini.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:#GDSC7: Join the Kick-off call!
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000006084B05F470FDB01000000000000000
+	010000000A216A1A0A7F7E54BA411A7C1D9107ADA
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>\n<meta name="Gener
+	ator" content="Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v
+	\\:* {behavior:url(#default#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\
+	nw\\:* {behavior:url(#default#VML)\;}\n.shape {behavior:url(#default#VML)\
+	;}\n</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n	
+	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-fac
+	e\n	{font-family:Verdana\;\n	panose-1:2 11 6 4 3 5 4 4 2 4\;}\n@font-face\
+	n	{font-family:Aptos\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1
+	:2 11 5 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNor
+	mal\, div.MsoNormal\n	{margin:0cm\;\n	font-size:12.0pt\;\n	font-family:"Ap
+	tos"\,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;
+	\n	color:#467886\;\n	text-decoration:underline\;}\nspan.EmailStyle20\n	{ms
+	o-style-type:personal-compose\;\n	font-family:"Verdana"\,sans-serif\;\n	co
+	lor:black\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:1
+	0.0pt\;\n	mso-ligatures:none\;}\n@page WordSection1\n	{size:612.0pt 792.0p
+	t\;\n	margin:72.0pt 72.0pt 72.0pt 72.0pt\;}\ndiv.WordSection1\n	{page:Word
+	Section1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="
+	edit" spidmax="1030" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:sh
+	apelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayou
+	t></xml><![endif]--></head><body lang="EN-GB" link="#467886" vlink="#96607
+	D" style="word-wrap:break-word"><div class="WordSection1"><div align="cent
+	er"><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="
+	0" width="750" style="width:562.5pt\;background:white\;border-collapse:col
+	lapse"><tr><td style="padding:0cm 0cm 0cm 0cm"><table class="MsoNormalTabl
+	e" border="0" cellspacing="0" cellpadding="0" style="border-collapse:colla
+	pse"><tr><td style="padding:0cm 0cm 0cm 0cm"><p class="MsoNormal"><span st
+	yle="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color
+	:black"><img width="750" height="303" style="width:7.8125in\;height:3.1597
+	in" id="_x0000_i1039" src="https://builders.capgemini.com/upload/template_
+	images/41AC0E80-EC96-12C7-FE9F-1D0227D049D3/user_banner/GDSC7_BUILDER750X3
+	03.png"></span><span style="font-size:9.0pt\;font-family:&quot\;Verdana&qu
+	ot\;\,sans-serif\;color:black"><o:p></o:p></span></p></td></tr><tr style="
+	height:7.5pt"><td style="padding:0cm 0cm 0cm 0cm\;height:7.5pt"><p class="
+	MsoNormal"><span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;
+	\,sans-serif\;color:black">&nbsp\;<o:p></o:p></span></p></td></tr></table>
+	<p class="MsoNormal"><span style="font-size:9.0pt\;font-family:&quot\;Verd
+	ana&quot\;\,sans-serif\;color:black\;display:none"><o:p>&nbsp\;</o:p></spa
+	n></p><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding
+	="0" width="92%" style="width:92.0%\;margin-left:22.5pt\;border-collapse:c
+	ollapse"><tr><td style="padding:0cm 0cm 0cm 0cm"><p align="center" style="
+	text-align:center"><strong><span style="font-size:27.0pt\;font-family:&quo
+	t\;Verdana&quot\;\,sans-serif\;color:#0070AD">Join the #GDSC7: The Grade-A
+	I Generation&nbsp\;</span></strong><strong><span style="font-size:27.0pt\;
+	font-family:&quot\;Verdana&quot\;\,sans-serif\;color:#12ABDB">Kick-Off Cal
+	l</span></strong><span style="font-size:9.0pt\;font-family:&quot\;Verdana&
+	quot\;\,sans-serif\;color:black">&nbsp\;</span><span style="font-size:9.0p
+	t\;font-family:&quot\;Verdana&quot\;\,sans-serif"><o:p></o:p></span></p><p
+	><span style="font-size:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-se
+	rif\;color:black">The 7<sup>th</sup> edition of <strong><span style="font-
+	family:&quot\;Verdana&quot\;\,sans-serif">Capgemini's Global Data Science 
+	Challenge (GDSC): The Grade-AI Generation: Re-righting Education with Data
+	 &amp\; AI&nbsp\;</span></strong>is here!&nbsp\;Sign up now and discover h
+	ow you can leverage or learn data science skills to make a real-world impa
+	ct on education. <a href="https://gdsc.ce.capgemini.com/app/" target="_bla
+	nk"><strong><span style="font-family:&quot\;Verdana&quot\;\,sans-serif\;co
+	lor:#0070AD">Register for the Challenge today!</span></strong></a></span><
+	span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif
+	\;color:black">&nbsp\;</span><span style="font-size:9.0pt\;font-family:&qu
+	ot\;Verdana&quot\;\,sans-serif"><o:p></o:p></span></p><p><span style="font
+	-size:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">
+	This year\, we've partnered with <strong><span style="font-family:&quot\;V
+	erdana&quot\;\,sans-serif">UNESCO </span></strong>and <strong><span style=
+	"font-family:&quot\;Verdana&quot\;\,sans-serif">AWS </span></strong>to tac
+	kle the UN's Sustainable Development Goal 4: Ensure inclusive and equitabl
+	e quality education and promote lifelong learning opportunities for all. O
+	ur challenge focuses on developing agentic AI systems that empower educato
+	rs through powerful data tools. &nbsp\;&nbsp\;</span><span style="font-siz
+	e:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp
+	\;&nbsp\;</span><span style="font-size:9.0pt\;font-family:&quot\;Verdana&q
+	uot\;\,sans-serif"><o:p></o:p></span></p><p align="center" style="text-ali
+	gn:center"><a href="https://teams.microsoft.com/l/meetup-join/19%3Ameeting
+	_MjA1ZTI3ZmEtZTAzNi00YmY5LWI3ZTYtNmZiMTZhZWRiN2M5%40thread.v2/0?context=%7
+	B%22Tid%22%3A%2276a2ae5a-9f00-4f6b-95ed-5d33d77c4d61%22%2C%22Oid%22%3A%22f
+	873b7d1-8138-4d2f-a7f5-cbb3d53e8c24%22%2C%22IsBroadcastMeeting%22%3Atrue%2
+	C%22role%22%3A%22a%22%7D&amp\;btype=a&amp\;role=a" target="_blank"><span s
+	tyle="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;colo
+	r:#1C49FF\;text-decoration:none"><img border="0" width="680" height="240" 
+	style="width:7.0833in\;height:2.5in" id="_x0000_i1038" src="https://builde
+	rs.capgemini.com/upload/user_images/F4B568A3-50E6-8517-62BC-582A370249FC/T
+	eams-Talent_See_you_%281%29.png" alt="date"></span></a><span style="font-s
+	ize:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif"><o:p></o:p></spa
+	n></p><p><strong><span style="font-size:18.0pt\;font-family:&quot\;Verdana
+	&quot\;\,sans-serif\;color:#0070AD">Here's what awaits you:</span></strong
+	><span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-ser
+	if"><o:p></o:p></span></p><div align="center"><table class="MsoNormalTable
+	" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100
+	.0%\;border-collapse:collapse"><tr><td width="41" valign="top" style="widt
+	h:31.0pt\;padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><!--[if gte vm
+	l 1]><v:shapetype id="_x0000_t75" coordsize="21600\,21600" o:spt="75" o:pr
+	eferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">\n<v
+	:stroke joinstyle="miter" />\n<v:formulas>\n<v:f eqn="if lineDrawn pixelLi
+	neWidth 0" />\n<v:f eqn="sum @0 1 0" />\n<v:f eqn="sum 0 0 @1" />\n<v:f eq
+	n="prod @2 1 2" />\n<v:f eqn="prod @3 21600 pixelWidth" />\n<v:f eqn="prod
+	 @3 21600 pixelHeight" />\n<v:f eqn="sum @0 0 1" />\n<v:f eqn="prod @6 1 2
+	" />\n<v:f eqn="prod @7 21600 pixelWidth" />\n<v:f eqn="sum @8 21600 0" />
+	\n<v:f eqn="prod @7 21600 pixelHeight" />\n<v:f eqn="sum @10 21600 0" />\n
+	</v:formulas>\n<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype
+	="rect" />\n<o:lock v:ext="edit" aspectratio="t" />\n</v:shapetype><v:shap
+	e id="Picture_x0020_2" o:spid="_x0000_s1029" type="#_x0000_t75" alt="bulle
+	ts" style='position:absolute\;margin-left:0\;margin-top:0\;width:30pt\;hei
+	ght:30pt\;z-index:251659264\;visibility:visible\;mso-wrap-style:square\;ms
+	o-width-percent:0\;mso-height-percent:0\;mso-wrap-distance-left:0\;mso-wra
+	p-distance-top:0\;mso-wrap-distance-right:0\;mso-wrap-distance-bottom:0\;m
+	so-position-horizontal:left\;mso-position-horizontal-relative:text\;mso-po
+	sition-vertical:absolute\;mso-position-vertical-relative:line\;mso-width-p
+	ercent:0\;mso-height-percent:0\;mso-width-relative:page\;mso-height-relati
+	ve:page' o:allowoverlap="f">\n<v:imagedata src="https://builders.capgemini
+	.com/upload/user_images/F4B568A3-50E6-8517-62BC-582A370249FC/right-01-01-0
+	1%2810%29.png" />\n<w:wrap type="square" anchory="line"/>\n</v:shape><![en
+	dif]--><![if !vml]><img width="40" height="40" style="width:.4166in\;heigh
+	t:.4166in" src="https://builders.capgemini.com/upload/user_images/F4B568A3
+	-50E6-8517-62BC-582A370249FC/right-01-01-01%2810%29.png" align="left" alt=
+	"bullets" v:shapes="Picture_x0020_2"><![endif]><span style="font-size:9.0p
+	t\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p>
+	</span></p></td><td width="10" style="width:7.5pt\;padding:.5pt .5pt .5pt 
+	.5pt"><p class="MsoNormal"><span style="font-size:9.0pt\;font-family:&quot
+	\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;<o:p></o:p></span></p></
+	td><td valign="top" style="padding:.5pt .5pt .5pt .5pt"><p><strong><span s
+	tyle="font-size:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;col
+	or:black">Contribute to a noble cause:</span></strong><span style="font-si
+	ze:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"> He
+	lp bridge the education gap and empower learners worldwide.</span><span st
+	yle="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color
+	:black"><o:p></o:p></span></p></td></tr><tr><td width="41" style="width:31
+	.0pt\;padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span style="font-
+	size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">&n
+	bsp\;<o:p></o:p></span></p></td><td width="10" style="width:7.5pt\;padding
+	:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span style="font-size:9.0pt\;f
+	ont-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;<o:p></o
+	:p></span></p></td><td style="padding:.5pt .5pt .5pt .5pt"><p class="MsoNo
+	rmal"><span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,san
+	s-serif\;color:black">&nbsp\;<o:p></o:p></span></p></td></tr><tr><td width
+	="41" valign="top" style="width:31.0pt\;padding:.5pt .5pt .5pt .5pt"><p cl
+	ass="MsoNormal"><!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_
+	x0000_s1028" type="#_x0000_t75" alt="bullets" style='position:absolute\;ma
+	rgin-left:0\;margin-top:0\;width:30pt\;height:30pt\;z-index:251660288\;vis
+	ibility:visible\;mso-wrap-style:square\;mso-width-percent:0\;mso-height-pe
+	rcent:0\;mso-wrap-distance-left:0\;mso-wrap-distance-top:0\;mso-wrap-dista
+	nce-right:0\;mso-wrap-distance-bottom:0\;mso-position-horizontal:left\;mso
+	-position-horizontal-relative:text\;mso-position-vertical:absolute\;mso-po
+	sition-vertical-relative:line\;mso-width-percent:0\;mso-height-percent:0\;
+	mso-width-relative:page\;mso-height-relative:page' o:allowoverlap="f">\n<v
+	:imagedata src="https://builders.capgemini.com/upload/user_images/F4B568A3
+	-50E6-8517-62BC-582A370249FC/right-01-01-01%2810%29.png" />\n<w:wrap type=
+	"square" anchory="line"/>\n</v:shape><![endif]--><![if !vml]><img width="4
+	0" height="40" style="width:.4166in\;height:.4166in" src="https://builders
+	.capgemini.com/upload/user_images/F4B568A3-50E6-8517-62BC-582A370249FC/rig
+	ht-01-01-01%2810%29.png" align="left" alt="bullets" v:shapes="Picture_x002
+	0_3"><![endif]><span style="font-size:9.0pt\;font-family:&quot\;Verdana&qu
+	ot\;\,sans-serif\;color:black"><o:p></o:p></span></p></td><td width="10" s
+	tyle="width:7.5pt\;padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span
+	 style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;co
+	lor:black">&nbsp\;<o:p></o:p></span></p></td><td valign="top" style="paddi
+	ng:.5pt .5pt .5pt .5pt"><p><strong><span style="font-size:13.5pt\;font-fam
+	ily:&quot\;Verdana&quot\;\,sans-serif\;color:black">Develop cutting-edge s
+	kills: </span></strong><span style="font-size:13.5pt\;font-family:&quot\;V
+	erdana&quot\;\,sans-serif\;color:black">Learn to build and improve agentic
+	 AI models with expert guidance.</span><span style="font-size:9.0pt\;font-
+	family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span><
+	/p></td></tr><tr><td width="41" style="width:31.0pt\;padding:.5pt .5pt .5p
+	t .5pt"><p class="MsoNormal"><span style="font-size:9.0pt\;font-family:&qu
+	ot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;<o:p></o:p></span></p>
+	</td><td width="10" style="width:7.5pt\;padding:.5pt .5pt .5pt .5pt"><p cl
+	ass="MsoNormal"><span style="font-size:9.0pt\;font-family:&quot\;Verdana&q
+	uot\;\,sans-serif\;color:black">&nbsp\;<o:p></o:p></span></p></td><td styl
+	e="padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span style="font-siz
+	e:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp
+	\;<o:p></o:p></span></p></td></tr><tr><td valign="top" style="padding:.5pt
+	 .5pt .5pt .5pt"><p class="MsoNormal"><!--[if gte vml 1]><v:shape id="Pict
+	ure_x0020_4" o:spid="_x0000_s1027" type="#_x0000_t75" alt="bullets" style=
+	'position:absolute\;margin-left:0\;margin-top:0\;width:30pt\;height:30pt\;
+	z-index:251661312\;visibility:visible\;mso-wrap-style:square\;mso-width-pe
+	rcent:0\;mso-height-percent:0\;mso-wrap-distance-left:0\;mso-wrap-distance
+	-top:0\;mso-wrap-distance-right:0\;mso-wrap-distance-bottom:0\;mso-positio
+	n-horizontal:left\;mso-position-horizontal-relative:text\;mso-position-ver
+	tical:absolute\;mso-position-vertical-relative:line\;mso-width-percent:0\;
+	mso-height-percent:0\;mso-width-relative:page\;mso-height-relative:page' o
+	:allowoverlap="f">\n<v:imagedata src="https://builders.capgemini.com/uploa
+	d/user_images/F4B568A3-50E6-8517-62BC-582A370249FC/right-01-01-01%2810%29.
+	png" />\n<w:wrap type="square" anchory="line"/>\n</v:shape><![endif]--><![
+	if !vml]><img width="40" height="40" style="width:.4166in\;height:.4166in"
+	 src="https://builders.capgemini.com/upload/user_images/F4B568A3-50E6-8517
+	-62BC-582A370249FC/right-01-01-01%2810%29.png" align="left" alt="bullets" 
+	v:shapes="Picture_x0020_4"><![endif]><span style="font-size:9.0pt\;font-fa
+	mily:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p
+	></td><td style="padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span s
+	tyle="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;colo
+	r:black">&nbsp\;<o:p></o:p></span></p></td><td valign="top" style="padding
+	:.5pt .5pt .5pt .5pt"><p><strong><span style="font-size:13.5pt\;font-famil
+	y:&quot\;Verdana&quot\;\,sans-serif\;color:black">Network with peers:</spa
+	n></strong><span style="font-size:13.5pt\;font-family:&quot\;Verdana&quot\
+	;\,sans-serif\;color:black"> Connect with a global community of data scien
+	ce enthusiasts.</span><span style="font-size:9.0pt\;font-family:&quot\;Ver
+	dana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p></td></tr><tr>
+	<td style="padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span style="
+	font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:blac
+	k">&nbsp\;<o:p></o:p></span></p></td><td style="padding:.5pt .5pt .5pt .5p
+	t"><p class="MsoNormal"><span style="font-size:9.0pt\;font-family:&quot\;V
+	erdana&quot\;\,sans-serif\;color:black">&nbsp\;<o:p></o:p></span></p></td>
+	<td style="padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><span style="
+	font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:blac
+	k">&nbsp\;<o:p></o:p></span></p></td></tr><tr><td valign="top" style="padd
+	ing:.5pt .5pt .5pt .5pt"><p class="MsoNormal"><!--[if gte vml 1]><v:shape 
+	id="Picture_x0020_5" o:spid="_x0000_s1026" type="#_x0000_t75" alt="bullets
+	" style='position:absolute\;margin-left:0\;margin-top:0\;width:30pt\;heigh
+	t:30pt\;z-index:251662336\;visibility:visible\;mso-wrap-style:square\;mso-
+	width-percent:0\;mso-height-percent:0\;mso-wrap-distance-left:0\;mso-wrap-
+	distance-top:0\;mso-wrap-distance-right:0\;mso-wrap-distance-bottom:0\;mso
+	-position-horizontal:left\;mso-position-horizontal-relative:text\;mso-posi
+	tion-vertical:absolute\;mso-position-vertical-relative:line\;mso-width-per
+	cent:0\;mso-height-percent:0\;mso-width-relative:page\;mso-height-relative
+	:page' o:allowoverlap="f">\n<v:imagedata src="https://builders.capgemini.c
+	om/upload/user_images/F4B568A3-50E6-8517-62BC-582A370249FC/right-01-01-01%
+	2810%29.png" />\n<w:wrap type="square" anchory="line"/>\n</v:shape><![endi
+	f]--><![if !vml]><img width="40" height="40" style="width:.4166in\;height:
+	.4166in" src="https://builders.capgemini.com/upload/user_images/F4B568A3-5
+	0E6-8517-62BC-582A370249FC/right-01-01-01%2810%29.png" align="left" alt="b
+	ullets" v:shapes="Picture_x0020_5"><![endif]><span style="font-size:9.0pt\
+	;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></
+	span></p></td><td style="padding:.5pt .5pt .5pt .5pt"><p class="MsoNormal"
+	><span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-ser
+	if\;color:black">&nbsp\;<o:p></o:p></span></p></td><td valign="top" style=
+	"padding:.5pt .5pt .5pt .5pt"><p><strong><span style="font-size:13.5pt\;fo
+	nt-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">Have fun and win
+	 big:</span></strong><span style="font-size:13.5pt\;font-family:&quot\;Ver
+	dana&quot\;\,sans-serif\;color:black"> Participate in an engaging challeng
+	e with exciting prizes!</span><span style="font-size:9.0pt\;font-family:&q
+	uot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p></td><
+	/tr></table></div><p><span style="font-size:13.5pt\;font-family:&quot\;Ver
+	dana&quot\;\,sans-serif\;color:black">After the Kick off\, you'll gain acc
+	ess to all AWS tutorials to get you started. Visit our page for more detai
+	ls: <strong><span style="font-family:&quot\;Verdana&quot\;\,sans-serif"><a
+	 href="https://gdsc.ce.capgemini.com/app/" target="_blank"><span style="co
+	lor:#0070AD">Global Data Science Challenge (capgemini.com)</span></a></spa
+	n></strong></span><span style="font-size:9.0pt\;font-family:&quot\;Verdana
+	&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p><p align="center" 
+	style="text-align:center"><strong><span style="font-size:20.0pt\;font-fami
+	ly:&quot\;Verdana&quot\;\,sans-serif\;color:#0070AD">Don't miss out on thi
+	s incredible opportunity!</span></strong><span style="font-size:8.0pt\;fon
+	t-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span
+	></p><p align="center" style="text-align:center"><strong><span style="font
+	-size:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">
+	#GDSC7 #TheGradeAIGeneration #EducationForAll</span></strong><span style="
+	font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:blac
+	k"><o:p></o:p></span></p><p><span style="font-size:9.0pt\;font-family:&quo
+	t\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;&nbsp\;<o:p></o:p></spa
+	n></p><div class="MsoNormal" align="center" style="text-align:center"><spa
+	n style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;c
+	olor:black"><hr size="1" width="100%" align="center"></span></div><p align
+	="center" style="text-align:center"><span style="font-size:9.0pt\;font-fam
+	ily:&quot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;</span><strong>
+	<span style="font-size:16.5pt\;font-family:&quot\;Verdana&quot\;\,sans-ser
+	if\;color:black">Contact&nbsp\;</span></strong><span style="font-size:9.0p
+	t\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p>
+	</span></p><div align="center"><table class="MsoNormalTable" border="0" ce
+	llspacing="0" cellpadding="0" width="500" style="width:375.0pt\;border-col
+	lapse:collapse"><tr><td style="padding:4.0pt 4.0pt 4.0pt 4.0pt"><p align="
+	center" style="text-align:center"><span style="font-size:9.0pt\;font-famil
+	y:&quot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;</span><strong><s
+	pan style="font-size:15.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif
+	\;color:black"><a href="mailto:kristin.o-herlihy@uk.sogeti.com?subject=GDS
+	C6"><span style="color:#12ABDB">Kristin O'Herlihy</span></a></span></stron
+	g><span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-se
+	rif\;color:black"><o:p></o:p></span></p><p align="center" style="text-alig
+	n:center"><span style="font-family:&quot\;Verdana&quot\;\,sans-serif\;colo
+	r:black">#GDSC7 Marketing Lead</span><span style="font-size:9.0pt\;font-fa
+	mily:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p
+	></td><td width="12" style="width:8.75pt\;padding:4.0pt 4.0pt 4.0pt 4.0pt"
+	><p class="MsoNormal" align="center" style="text-align:center"><span style
+	="font-size:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:b
+	lack"><img border="0" width="1" height="50" style="width:.0138in\;height:.
+	5208in" id="_x0000_i1037" src="https://builders.capgemini.com/upload/user_
+	images/32176A6A-4B3D-D080-DEA7-D42EE4FBA9DE/Line_56.png"></span><span styl
+	e="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:b
+	lack"><o:p></o:p></span></p></td><td style="padding:4.0pt 4.0pt 4.0pt 4.0p
+	t"><p align="center" style="text-align:center"><strong><span style="font-s
+	ize:15.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><a
+	 href="mailto:daniel.kuehlwein@capgemini.com?subject=GDSC6"><span style="c
+	olor:#12ABDB">Daniel Kühlwein</span></a></span></strong><strong><span sty
+	le="font-size:15.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color
+	:#12ABDB">&nbsp\;</span></strong><span style="font-size:9.0pt\;font-family
+	:&quot\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p><p 
+	align="center" style="text-align:center"><span style="font-family:&quot\;V
+	erdana&quot\;\,sans-serif\;color:black">#GDSC7 Program Lead</span><span st
+	yle="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color
+	:black"><o:p></o:p></span></p></td></tr></table></div><p><span style="font
+	-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">&
+	nbsp\;&nbsp\;<o:p></o:p></span></p><p><strong><span style="font-size:13.5p
+	t\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">Best regard
+	s\,&nbsp\;</span></strong><span style="font-size:9.0pt\;font-family:&quot\
+	;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p><table cla
+	ss="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="180"
+	 style="width:135.0pt\;border-collapse:collapse"><tr><td style="padding:.5
+	pt .5pt .5pt .5pt"><p class="MsoNormal"><span style="font-size:9.0pt\;font
+	-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">&nbsp\;</span><spa
+	n style="font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;c
+	olor:black"><img border="0" width="125" height="125" style="width:1.3055in
+	\;height:1.3055in" id="_x0000_i1036" src="https://builders.capgemini.com/u
+	pload/user_images/AB0AB8DB-BB65-7518-39AB-C74A7A8B1D00/Sanna-new.png" alt=
+	"Susanna Östberg"></span><span style="font-size:9.0pt\;font-family:&quot\
+	;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p></td></tr>
+	<tr><td style="padding:.5pt .5pt .5pt .5pt"><p style="margin:0cm"><strong>
+	<span style="font-size:13.5pt\;font-family:&quot\;Verdana&quot\;\,sans-ser
+	if\;color:#0070AD">Susanna&nbsp\;Östberg</span></strong><span style="font
+	-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black"><
+	o:p></o:p></span></p><p style="margin:0cm"><span style="font-size:10.0pt\;
+	font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">CMO/CCO\, I&am
+	p\;D GBL\,<o:p></o:p></span></p><p style="margin:0cm"><span style="font-si
+	ze:10.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:black">Dat
+	a &amp\; AI Portfolio</span><span style="font-size:9.0pt\;font-family:&quo
+	t\;Verdana&quot\;\,sans-serif\;color:black"><o:p></o:p></span></p></td></t
+	r></table><p><span style="font-size:9.0pt\;font-family:&quot\;Verdana&quot
+	\;\,sans-serif\;color:black">&nbsp\;<o:p></o:p></span></p><p><span style="
+	font-size:9.0pt\;font-family:&quot\;Verdana&quot\;\,sans-serif\;color:blac
+	k">&nbsp\;<o:p></o:p></span></p></td></tr></table><p class="MsoNormal"><o:
+	p></o:p></p></td></tr><tr><td style="padding:0cm 0cm 0cm 0cm"><p class="Ms
+	oNormal"><o:p>&nbsp\;</o:p></p></td></tr></table></div><p class="MsoNormal
+	"><o:p>&nbsp\;</o:p></p><p class="MsoNormal"><span style="font-size:11.0pt
+	\;mso-fareast-language:EN-US"><o:p>&nbsp\;</o:p></span></p><div><div style
+	="margin-bottom:18.0pt\;overflow:hidden"><p class="MsoNormal"><span style=
+	"font-family:&quot\;Segoe UI&quot\;\,sans-serif\;color:#242424"><o:p>&nbsp
+	\;</o:p></span></p></div></div><p class="MsoNormal"><span style="font-size
+	:11.0pt\;mso-fareast-language:EN-US"><o:p>&nbsp\;</o:p></span></p></div></
+	body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
