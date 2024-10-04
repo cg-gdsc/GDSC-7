@@ -4,9 +4,11 @@ from typing import Dict, Any, Optional, List, Tuple, Iterator, AsyncIterator, Un
 
 from langchain_aws import ChatBedrock
 from langchain_core.callbacks import CallbackManagerForLLMRun, AsyncCallbackManagerForLLMRun
-from langchain_core.messages import ToolCall, AIMessageChunk
+from langchain_core.language_models import LanguageModelInput
+from langchain_core.messages import ToolCall, AIMessageChunk, BaseMessage
 from langchain_core.outputs import GenerationChunk
 from langchain_core.pydantic_v1 import Field
+from langchain_core.runnables import RunnableConfig
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -46,6 +48,23 @@ class ChatBedrockWrapper(ChatBedrock):
     call_id: str = Field(exclude=False)
     model_name: str = Field(exclude=False, default='AWS_Bedrock')
     model_id: str = Field(exclude=False)
+
+
+    def invoke(
+            self,
+            input: LanguageModelInput,
+            config: Optional[RunnableConfig] = None,
+            *,
+            stop: Optional[List[str]] = None,
+            **kwargs: Any,
+    ) -> BaseMessage:
+        messages = map(lambda m: m.content, self._convert_input(input).to_messages())
+        messages = [{'content': message} for message in messages]
+        self._update_token_counter_prompt(None, None, messages)
+        ret = super().invoke(input, config, stop=stop, **kwargs)
+        content = ret.content if isinstance(ret.content, str) else ''
+        self._update_token_counter_completion(content)
+        return ret
 
     def _prepare_input_and_invoke(
             self,
@@ -109,7 +128,18 @@ class ChatBedrockWrapper(ChatBedrock):
             tokens += self.get_num_tokens(system)
         if messages:
             for message in messages:
-                tokens += self.get_num_tokens(message['content'])
+                content = message['content']
+                if isinstance(content, list):
+                    for elem in content:
+                        if 'input' in elem:
+                            tokens += self.get_num_tokens(str(elem['input']))
+                        if 'output' in elem:
+                            tokens += self.get_num_tokens(str(elem['output']))
+                elif isinstance(content, str):
+                    tokens += self.get_num_tokens(content)
+                else:
+                    print(f'error: unrecognised message content: {content}. Treating everything as a str')
+                    tokens += self.get_num_tokens(str(content))
         return tokens
 
     def _update_token_counter_prompt(self, prompt, system, messages):
@@ -143,7 +173,11 @@ def get_token_cost(tokens: int, model_id: str, mode: str) -> float:
     cost_mapping = {
         'anthropic.claude-3-5-sonnet-20240620-v1:0': {'input': 0.003, 'output': 0.015},
         'anthropic.claude-3-haiku-20240307-v1:0': {'input': 0.00025, 'output': 0.00125},
-        'amazon.titan-text-premier-v1:0': {'input': 0.0005, 'output': 0.0015}
+        'amazon.titan-text-premier-v1:0': {'input': 0.0005, 'output': 0.0015},
+        'meta.llama3-8b-instruct-v1:0': {'input': 0.0003, 'output': 0.0006},
+        'meta.llama3-70b-instruct-v1:0': {'input': 0.00265, 'output': 0.0035},
+        'mistral.mistral-7b-instruct-v0:2': {'input': 0.00015, 'output': 0.0002},
+        'mistral.mixtral-8x7b-instruct-v0:1': {'input': 0.00045, 'output': 0.0007}
     }
     if mode == 'prompt':
         mode = 'input'
